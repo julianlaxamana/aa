@@ -4,12 +4,12 @@
 #include <SDL.h>
 #include "Component.h"
 
-class Rectangle : public Component {
+class Rectangle1 : public Component {
 public:
 
     SDL_Color baseColor{ 0, 0, 0, 255};
 
-    Rectangle(
+    Rectangle1(
         int x, int y, int w, int h,
         SDL_Color Color = { 0, 0, 0, 255 })
         : Rect{ x, y, w, h }, baseColor{ Color } {}

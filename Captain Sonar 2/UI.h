@@ -23,10 +23,10 @@ public:
     void Render(SDL_Surface* Surface) {};
 };
 
-class Button : public Rectangle {
+class Button : public Rectangle1 {
 
 public:
-    Button(int x, int y, int w, int h, SDL_Color newCol = {0, 0, 0, 255}) : Rectangle
+    Button(int x, int y, int w, int h, SDL_Color newCol = {0, 0, 0, 255}) : Rectangle1
     { x, y, w, h } {
         SetColor(newCol);
     }

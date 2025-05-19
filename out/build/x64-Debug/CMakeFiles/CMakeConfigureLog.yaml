@@ -2588,3 +2588,1113 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_00a56
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_00a56.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_00a56.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_00a56.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_00a56.dir\\CXX.dd @CMakeFiles\\cmTC_00a56.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_00a56.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_00a56.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_00a56.dir\\cmTC_00a56.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_00a56.lib CMakeFiles\\cmTC_00a56.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b33ac
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_b33ac.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_b33ac.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_b33ac.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_b33ac.dir\\CXX.dd @CMakeFiles\\cmTC_b33ac.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_b33ac.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_b33ac.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_b33ac.dir\\cmTC_b33ac.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_b33ac.lib CMakeFiles\\cmTC_b33ac.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_40a5b
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_40a5b.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_40a5b.dir\\cmTC_40a5b.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_40a5b.lib CMakeFiles\\cmTC_40a5b.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ae0af
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_ae0af.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_ae0af.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_ae0af.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_ae0af.dir\\CXX.dd @CMakeFiles\\cmTC_ae0af.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_ae0af.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_ae0af.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_ae0af.dir\\cmTC_ae0af.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_ae0af.lib CMakeFiles\\cmTC_ae0af.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c5d45
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_c5d45.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_c5d45.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_c5d45.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_c5d45.dir\\CXX.dd @CMakeFiles\\cmTC_c5d45.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_c5d45.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_c5d45.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_c5d45.dir\\cmTC_c5d45.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_c5d45.lib CMakeFiles\\cmTC_c5d45.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bd43a
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_bd43a.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_bd43a.dir\\cmTC_bd43a.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_bd43a.lib CMakeFiles\\cmTC_bd43a.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_85925
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_85925.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_85925.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_85925.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_85925.dir\\CXX.dd @CMakeFiles\\cmTC_85925.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_85925.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_85925.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_85925.dir\\cmTC_85925.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_85925.lib CMakeFiles\\cmTC_85925.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_39cfe
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_39cfe.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_39cfe.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_39cfe.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_39cfe.dir\\CXX.dd @CMakeFiles\\cmTC_39cfe.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_39cfe.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_39cfe.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_39cfe.dir\\cmTC_39cfe.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_39cfe.lib CMakeFiles\\cmTC_39cfe.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5e1b9
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_5e1b9.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_5e1b9.dir\\cmTC_5e1b9.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_5e1b9.lib CMakeFiles\\cmTC_5e1b9.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b0fce
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_b0fce.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_b0fce.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_b0fce.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_b0fce.dir\\CXX.dd @CMakeFiles\\cmTC_b0fce.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_b0fce.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_b0fce.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_b0fce.dir\\cmTC_b0fce.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_b0fce.lib CMakeFiles\\cmTC_b0fce.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_52f70
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_52f70.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_52f70.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_52f70.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_52f70.dir\\CXX.dd @CMakeFiles\\cmTC_52f70.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_52f70.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_52f70.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_52f70.dir\\cmTC_52f70.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_52f70.lib CMakeFiles\\cmTC_52f70.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_85cd8
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_85cd8.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_85cd8.dir\\cmTC_85cd8.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_85cd8.lib CMakeFiles\\cmTC_85cd8.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a2ae4
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_a2ae4.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_a2ae4.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_a2ae4.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_a2ae4.dir\\CXX.dd @CMakeFiles\\cmTC_a2ae4.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_a2ae4.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_a2ae4.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_a2ae4.dir\\cmTC_a2ae4.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_a2ae4.lib CMakeFiles\\cmTC_a2ae4.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1b959
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_1b959.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_1b959.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_1b959.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_1b959.dir\\CXX.dd @CMakeFiles\\cmTC_1b959.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_1b959.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_1b959.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_1b959.dir\\cmTC_1b959.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_1b959.lib CMakeFiles\\cmTC_1b959.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dc94d
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_dc94d.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_dc94d.dir\\cmTC_dc94d.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_dc94d.lib CMakeFiles\\cmTC_dc94d.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/MICROS~2/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_5a3b3
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_5a3b3.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_5a3b3.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_5a3b3.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_5a3b3.dir\\CXX.dd @CMakeFiles\\cmTC_5a3b3.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_5a3b3.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_5a3b3.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_5a3b3.dir\\cmTC_5a3b3.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_5a3b3.lib CMakeFiles\\cmTC_5a3b3.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/MICROS~2/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_d5da7
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_d5da7.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_d5da7.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_d5da7.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_d5da7.dir\\CXX.dd @CMakeFiles\\cmTC_d5da7.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_d5da7.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_d5da7.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_d5da7.dir\\cmTC_d5da7.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_d5da7.lib CMakeFiles\\cmTC_d5da7.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/MICROS~2/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_29ca9
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_29ca9.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_29ca9.dir\\cmTC_29ca9.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_29ca9.lib CMakeFiles\\cmTC_29ca9.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_58cee
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_58cee.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_58cee.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_58cee.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_58cee.dir\\CXX.dd @CMakeFiles\\cmTC_58cee.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_58cee.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_58cee.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_58cee.dir\\cmTC_58cee.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_58cee.lib CMakeFiles\\cmTC_58cee.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6b753
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_6b753.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_6b753.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_6b753.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_6b753.dir\\CXX.dd @CMakeFiles\\cmTC_6b753.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_6b753.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_6b753.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_6b753.dir\\cmTC_6b753.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_6b753.lib CMakeFiles\\cmTC_6b753.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d737d
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_d737d.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_d737d.dir\\cmTC_d737d.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_d737d.lib CMakeFiles\\cmTC_d737d.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8a5c3
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_8a5c3.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_8a5c3.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_8a5c3.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_8a5c3.dir\\CXX.dd @CMakeFiles\\cmTC_8a5c3.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_8a5c3.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_8a5c3.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_8a5c3.dir\\cmTC_8a5c3.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_8a5c3.lib CMakeFiles\\cmTC_8a5c3.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_068d3
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_068d3.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_068d3.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_068d3.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_068d3.dir\\CXX.dd @CMakeFiles\\cmTC_068d3.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_068d3.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_068d3.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_068d3.dir\\cmTC_068d3.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_068d3.lib CMakeFiles\\cmTC_068d3.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_28b96
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_28b96.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_28b96.dir\\cmTC_28b96.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_28b96.lib CMakeFiles\\cmTC_28b96.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_60781
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_60781.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_60781.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_60781.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_60781.dir\\CXX.dd @CMakeFiles\\cmTC_60781.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_60781.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_60781.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_60781.dir\\cmTC_60781.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_60781.lib CMakeFiles\\cmTC_60781.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_50744
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_50744.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_50744.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_50744.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_50744.dir\\CXX.dd @CMakeFiles\\cmTC_50744.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_50744.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_50744.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_50744.dir\\cmTC_50744.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_50744.lib CMakeFiles\\cmTC_50744.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_02075
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_02075.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_02075.dir\\cmTC_02075.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_02075.lib CMakeFiles\\cmTC_02075.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ea4f0
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_ea4f0.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_ea4f0.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_ea4f0.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_ea4f0.dir\\CXX.dd @CMakeFiles\\cmTC_ea4f0.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_ea4f0.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_ea4f0.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_ea4f0.dir\\cmTC_ea4f0.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_ea4f0.lib CMakeFiles\\cmTC_ea4f0.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8265f
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_8265f.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_8265f.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_8265f.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_8265f.dir\\CXX.dd @CMakeFiles\\cmTC_8265f.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_8265f.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_8265f.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_8265f.dir\\cmTC_8265f.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_8265f.lib CMakeFiles\\cmTC_8265f.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a4bff
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_a4bff.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_a4bff.dir\\cmTC_a4bff.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_a4bff.lib CMakeFiles\\cmTC_a4bff.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:19 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_COROUTINE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6cbfd
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_6cbfd.dir\\coroutine.cpp.obj.ddi -FoCMakeFiles\\cmTC_6cbfd.dir\\coroutine.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_6cbfd.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_6cbfd.dir\\CXX.dd @CMakeFiles\\cmTC_6cbfd.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_6cbfd.dir\\coroutine.cpp.obj.modmap /FoCMakeFiles\\cmTC_6cbfd.dir\\coroutine.cpp.obj /FdCMakeFiles\\cmTC_6cbfd.dir\\cmTC_6cbfd.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\coroutine.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_6cbfd.lib CMakeFiles\\cmTC_6cbfd.dir\\coroutine.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:33 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bf0a5
+        [1/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp" -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_bf0a5.dir\\concepts.cpp.obj.ddi -FoCMakeFiles\\cmTC_bf0a5.dir\\concepts.cpp.obj
+        [2/4] "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_bf0a5.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_bf0a5.dir\\CXX.dd @CMakeFiles\\cmTC_bf0a5.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++20 -Zi /showIncludes @CMakeFiles\\cmTC_bf0a5.dir\\concepts.cpp.obj.modmap /FoCMakeFiles\\cmTC_bf0a5.dir\\concepts.cpp.obj /FdCMakeFiles\\cmTC_bf0a5.dir\\cmTC_bf0a5.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\concepts.cpp"
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_bf0a5.lib CMakeFiles\\cmTC_bf0a5.dir\\concepts.cpp.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Captain Sonar 2/libs/boost/libs/cobalt/cmake/CheckRequirements.cmake:49 (try_compile)"
+      - "Captain Sonar 2/libs/boost/libs/cobalt/CMakeLists.txt:15 (include)"
+    directories:
+      source: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/tools/cmake/include"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_INSTALLED_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master"
+    buildResult:
+      variable: "BOOST_COBALT_HAS_STD_PMR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/boost/libs/cobalt/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b6e17
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_b6e17.dir\\memory_resource.cpp.obj /FdCMakeFiles\\cmTC_b6e17.dir\\cmTC_b6e17.pdb /FS -c "C:\\Users\\Julian\\source\\repos\\Captain Sonar 2\\Captain Sonar 2\\libs\\boost\\libs\\cobalt\\cmake\\memory_resource.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_b6e17.lib CMakeFiles\\cmTC_b6e17.dir\\memory_resource.cpp.obj && cd ."
+        
+      exitCode: 0
+...

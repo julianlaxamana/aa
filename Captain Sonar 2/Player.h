@@ -46,7 +46,7 @@ public:
 		scale.x = xScale;
 		scale.y = yScale;
 
-		Rectangle wanted{ position.x, position.y, scale.x, scale.y };
+		Rectangle1 wanted{ position.x, position.y, scale.x, scale.y };
 
 		playerRepresentative = wanted;
 
@@ -73,12 +73,12 @@ public:
 		droneItem = other.droneItem;
 	}
 
-	Rectangle playerRepresentative{ position.x, position.y, scale.x, scale.y };
+	Rectangle1 playerRepresentative{ position.x, position.y, scale.x, scale.y };
 
 	 void Render(SDL_Renderer* renderer, bool currentTurn = false) {
 		playerRepresentative.SetShapePosition(position.x, position.y);
 		if (currentTurn) playerRepresentative.baseColor = { 0, 75, 215 };
-		else playerRepresentative.baseColor = { 0, 0, 0 };
+		else playerRepresentative.baseColor = { 148, 194, 255};
 
 		playerRepresentative.Render(renderer);
 	}

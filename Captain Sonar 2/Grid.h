@@ -7,13 +7,13 @@
 
 struct GridSlot : GameObject
 {
-    bool occupiedByLamd = false;
+    bool occupiedByLand = false;
     bool occupiedByPlayer = false;
     bool occupiedByMine = false;
     int playerOwner = 0;
 
-    Rectangle borderRect{ 100,100,100,100 };
-    Rectangle innerRect{ 100,100,100,100 };
+    Rectangle1 borderRect{ 100,100,100,100 };
+    Rectangle1 innerRect{ 100,100,100,100 };
 
     GridSlot(std::string newName = "New Gridslot", int xPos = 100, int yPos = 100, int xScale = 25, int yScale = 25) {
 
@@ -24,8 +24,8 @@ struct GridSlot : GameObject
         scale.x = xScale;
         scale.y = yScale;
 
-        Rectangle newBorderRect(xPos, yPos, xScale, yScale);
-        Rectangle newInnterRect(xPos+2, yPos+2, xScale - 4, yScale-4);
+        Rectangle1 newBorderRect(xPos, yPos, xScale, yScale);
+        Rectangle1 newInnterRect(xPos + 2, yPos + 2, xScale - 4, yScale - 4);
 
         borderRect = newBorderRect;
         borderRect.SetColor({ 27, 69, 124 });
@@ -36,6 +36,7 @@ struct GridSlot : GameObject
     virtual void RenderSlot(SDL_Renderer* renderer) {
         borderRect.Render(renderer);
         if (occupiedByMine) innerRect.SetColor({ 228, 44, 44 });
+        else if (occupiedByLand) innerRect.SetColor({ 100, 185, 125 });
         else innerRect.SetColor({ 148, 194, 255 });
         innerRect.Render(renderer);
     }
@@ -70,9 +71,9 @@ public:
             grid.push_back(newRow);
             for (int j = 0; j < columnSize; j++)
             {
-                Vector2 baseOffset((screenWidth/2)-(gridSlotScale*(columnSize/2)),(screenHeight/2)-(gridSlotScale*(rowSize/2)));
+                Vector2 baseOffset((screenWidth / 2) - (gridSlotScale * (columnSize / 2)), (screenHeight / 2) - (gridSlotScale * (rowSize / 2)));
                 GridSlot newSlot("New GridSlot", baseOffset.x + (i * gridSlotScale), baseOffset.y + (j * gridSlotScale), gridSlotScale, gridSlotScale);
-                 grid.at(i).push_back(newSlot);
+                grid.at(i).push_back(newSlot);
             }
         }
     };
@@ -115,13 +116,12 @@ public:
         int rowSlot = 4;
         int columnSlot = 4;
 
-        if (row != 0) rowSlot += (32*row);
-        if (column != 0) columnSlot += (32*column);
+        if (row != 0) rowSlot += (32 * row);
+        if (column != 0) columnSlot += (32 * column);
 
         Vector2 returnVector(x + rowSlot, y + columnSlot);
 
         return returnVector;
     }
 };
-
 
