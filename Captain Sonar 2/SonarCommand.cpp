@@ -83,7 +83,6 @@ bool init()
 	bool success = true;
 	cout << "Begging, Begging you to work buddy." << endl;
 	//Initialize SDL
-
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
@@ -148,6 +147,10 @@ bool loadMedia()
 
 	gFont = TTF_OpenFont("fonts/WhiteRabbitTTF.ttf", 28);
 
+
+	SDL_FreeSurface(gOut);
+
+	SDL_FreeSurface(gOut);
 
 
 	return success;
@@ -255,10 +258,6 @@ bool isViableSpot(int slotX, int slotY, const Grid& gameGrid)
 	{
 		cout << "Player in the way man." << endl;
 		return false;
-	}
-	return true;
-}
-
 void GenerateLandmass(Grid& gameGrid)
 {
 	gameGrid.grid.at(3).at(3).occupiedByLand = true;
@@ -285,6 +284,10 @@ void GenerateLandmass(Grid& gameGrid)
 	gameGrid.grid.at(12).at(13).occupiedByLand = true;
 	gameGrid.grid.at(11).at(13).occupiedByLand = true;
 	gameGrid.grid.at(10).at(13).occupiedByLand = true;
+}
+
+	}
+	return true;
 }
 
 void DisplayCurrentCharges(int currentCharge, int maxCharge, bool currentlySelected = false)
@@ -338,10 +341,6 @@ void TorpedoExplosion(int slotX, int slotY, Grid& gameGrid, Player& p1, Player& 
 	int minX = slotX - 1;
 	int minY = slotY - 1;
 	int maxX = slotX + 1;
-	int maxY = slotY + 1;
-
-	bool hitSomething = false;
-
 	for (int i = minX; i <= maxX; i++)
 	{
 		for (int j = minY; j <= maxY; j++)
@@ -380,18 +379,22 @@ void TorpedoExplosion(int slotX, int slotY, Grid& gameGrid, Player& p1, Player& 
 	if (!hitSomething) cout << "Nothing was Hit!" << endl;
 }
 
+	bool hitSomething = false;
+
+}
+#undef main
 int main(int argc, char* args[])
 {
 	// variables
-
-	Player noPlayer("NoPlayer", 0, 0, 0, 0);
-
-	bool quit = false;
 
 	Rectangle1 testRect(100, 100, 100, 100, { 0, 95, 125 });
 
 	int textDisplayTime = 1;
 
+
+	bool quit = false;
+	int gamestate = 0;
+	Rectangle testRect(100, 100, 100, 100, {0, 95, 125});
 	if (!init())
 	{
 		printf("Failed to initialize!\n");
@@ -467,14 +470,14 @@ int main(int argc, char* args[])
 	bool player2Turn = false;
 
 
-	Vector2 previousPosition = currentPlayer.slotPosition;
-
-	bool launchingTorpedo = false;
-
 	bool inMainMenu = true;
 	static char ipBuffer[64] = "127.0.0.1";
 	static char portBuffer[16] = "8080";
 	while (inMainMenu)
+
+	std::string currentText = "It is " + player1.name + "'s Turn!";
+
+	while (!quit)
 	{
 
 		while (SDL_PollEvent(&e) != 0)
@@ -484,10 +487,6 @@ int main(int argc, char* args[])
 			if (e.type == SDL_QUIT)
 			{
 				inMainMenu = false;
-				quit = true;
-			}
-		}
-
 
 		ImGui_ImplSDLRenderer2_NewFrame();
 		ImGui_ImplSDL2_NewFrame();
@@ -504,7 +503,7 @@ int main(int argc, char* args[])
 		if (ImGui::Button("Play Game")) {
 			readyup = !readyup;
 			//inMainMenu = false;
-		}
+				quit = true;
 		if (startGame) inMainMenu = false;
 		ImGui::Spacing();
 		ImGui::InputText("IP Address", ipBuffer, sizeof(ipBuffer));
@@ -550,7 +549,7 @@ int main(int argc, char* args[])
 		{
 			//User requests quit
 			ImGui_ImplSDL2_ProcessEvent(&e);
-
+			while (SDL_PollEvent(&e) != 0)
 			if (e.type == SDL_MOUSEMOTION)
 			{
 				/*	if (inButtonBounds(e.motion.x, e.motion.y))
@@ -559,10 +558,10 @@ int main(int argc, char* args[])
 					}
 					else currentButtonColor = baseButtonColor; */
 			}
-
-			if (e.type == SDL_MOUSEBUTTONDOWN)
-			{
-				//if (!inButtonBounds(e.motion.x, e.motion.y)) break;
+							currentButtonColor = hoverButtonColor;
+						}
+						else currentButtonColor = baseButtonColor; */
+				}
 
 				if (SameColor(currentColor, baseColor))
 				{
@@ -573,6 +572,10 @@ int main(int argc, char* args[])
 				{
 					SetScreenColor(baseColor);
 				}
+					else if (SameColor(currentColor, altColor))
+					{
+						SetScreenColor(baseColor);
+					}
 
 				break;
 			}
@@ -585,10 +588,6 @@ int main(int argc, char* args[])
 			{
 
 				bool usedTurn = false;
-
-				switch (e.key.keysym.sym)
-				{
-
 				case SDLK_RIGHT:
 					if (isViableSpot(currentPlayer.slotPosition.x + 1, currentPlayer.slotPosition.y, gameGrid))
 					{
@@ -622,6 +621,10 @@ int main(int argc, char* args[])
 					}
 					break;
 				}
+							usedTurn = true;
+						}
+						break;
+					}
 
 				keepInBounds(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y, gameGrid);
 
@@ -649,10 +652,6 @@ int main(int argc, char* args[])
 						DamagePlayer(currentPlayer, 1);
 						gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine = false;
 						textDisplayTime = SDL_GetTicks() + 1500;
-					}
-				}
-
-
 				if (isTurn)
 				{
 					player1 = currentPlayer;
@@ -666,7 +665,7 @@ int main(int argc, char* args[])
 					player2 = currentPlayer;
 					currentPlayer = player1;
 					player1Turn = true;
-
+					{
 					currentText = "It is Player 2's Turn!";
 				}
 
@@ -674,6 +673,10 @@ int main(int argc, char* args[])
 				{
 					currentText = "Taken Damage!!!";
 				}
+						player1Turn = true;
+
+						currentText = "It is " + currentPlayer.name + "'s Turn!";
+					}
 
 
 				Vector2 p1SlotPos = gameGrid.GridSlotPosition(player1.slotPosition.x, player1.slotPosition.y);
@@ -687,15 +690,15 @@ int main(int argc, char* args[])
 				switch (e.key.keysym.sym)
 				{
 				case SDLK_RIGHT:
-					break;
-				}
-			}
-
 			/*			if (x > SCREEN_WIDTH - (IMAGE_WIDTH)) x -= 1;
 						else if (x < 0) x += 1;
 						if (y > SCREEN_HEIGHT-(IMAGE_HEIGHT)) y -= 1;
 						else if (y < 0) y += 1; */
 		}
+							else if (x < 0) x += 1;
+							if (y > SCREEN_HEIGHT-(IMAGE_HEIGHT)) y -= 1;
+							else if (y < 0) y += 1; */
+			}
 
 		ImGui_ImplSDLRenderer2_NewFrame();
 		ImGui_ImplSDL2_NewFrame();
@@ -723,10 +726,6 @@ int main(int argc, char* args[])
 		if (ImGui::Button("Mine"))
 		{
 			if (currentPlayer.mineItem.currentCharge == currentPlayer.mineItem.requiredCharge)
-			{
-				currentPlayer.mineItem.currentCharge = 0;
-				gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine = true;
-
 			}
 			else
 			{
@@ -779,6 +778,10 @@ int main(int argc, char* args[])
 			if (currentPlayer.sonarItem.currentCharge == currentPlayer.sonarItem.requiredCharge)
 			{
 				currentPlayer.sonarItem.currentCharge = 0;
+			{
+				if (currentPlayer.sonarItem.currentCharge == currentPlayer.sonarItem.requiredCharge)
+				{
+					currentPlayer.sonarItem.currentCharge = 0;
 
 				int randomRow = rand() % gameGrid.rowSize;
 				int randomColum = rand() % gameGrid.columnSize;
@@ -792,10 +795,6 @@ int main(int argc, char* args[])
 				}
 				else
 				{
-					if (player1Turn) cout << "Opponent Location: X: " << player2.slotPosition.x << " Y: " << randomColum << endl;
-					else  cout << "Opponent Location: X: " << player1.slotPosition.x << " Y: " << randomColum << endl;
-				}
-
 			}
 			else
 			{
@@ -813,9 +812,13 @@ int main(int argc, char* args[])
 		ImGui::PopStyleColor();
 		ImGui::PopStyleColor();
 		ImGui::End();
-
+			ImGui::PopStyleColor();
 		SDL_Rect textRect = { 24, 24, 300, 114 };
 		SDL_Rect iconRect = { 24, 90, 125, 125 };
+
+			ImGui::End();
+
+			SDL_Rect textRect = { 24, 24, 300, 114 };
 
 
 		ImGui::Render();
@@ -853,12 +856,12 @@ int main(int argc, char* args[])
 		}
 		else
 		{
-			player1.Render(renderer, false);
-			player2.Render(renderer, true);
-		}
-
 		ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
 		//	SDL_RenderCopy(renderer, garFeldiTexture, NULL, &iconRect);
+		}
+
+			ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
+			//SDL_RenderCopy(renderer, garFeldiTexture, NULL, &dstrect);
 
 		buttonRect.Render(renderer);
 		SDL_RenderCopy(renderer, textTexture, NULL, &textRect);
