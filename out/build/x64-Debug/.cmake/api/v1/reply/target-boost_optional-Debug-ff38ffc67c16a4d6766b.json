@@ -1,0 +1,163 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"Captain Sonar 2/libs/boost/libs/optional/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "boost_optional::@38dc12bc04a20e0ffbd2",
+	"name" : "boost_optional",
+	"paths" : 
+	{
+		"build" : "Captain Sonar 2/libs/boost/libs/optional",
+		"source" : "Captain Sonar 2/libs/boost/libs/optional"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/none.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/none_t.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/bad_optional_access.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/experimental_traits.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_aligned_storage.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_config.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_factory_support.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_hash.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_reference_spec.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_relops.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_swap.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_trivially_copyable_base.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/detail/optional_utility.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/optional.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/optional_fwd.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Captain Sonar 2/libs/boost/libs/optional/include/boost/optional/optional_io.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

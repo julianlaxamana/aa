@@ -1,0 +1,412 @@
+# ninja log v6
+84	226	7693413580077350	Captain Sonar 2/libs/SDL/include/SDL2/SDL.h	5f02cca54394bd19
+106	276	7693413580337421	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_audio.h	da4bcfda5f40be7c
+534	707	7693413584783670	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_khrplatform.h	bec72102d7e5d117
+168	338	7693413581247621	Captain Sonar 2/libs/SDL/include/SDL2/SDL_egl.h	87041fa351900219
+84	226	7693413580077350	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL.h	5f02cca54394bd19
+1726	2496	7693413595861221	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj	81b0e976e1f1f579
+2534	2853	7693413603948101	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj	9d6f3ad4d5c98425
+99	265	7693413580237395	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_atomic.h	cb0f66cfe9ef9299
+92	251	7693413580157373	Captain Sonar 2/libs/SDL/include/SDL2/SDL_assert.h	cdde63f1485016cb
+157	329	7693413581177612	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_cpuinfo.h	ab446b733fb35059
+189	357	7693413581507677	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_error.h	4b3ce9af05ccc55d
+252	407	7693413581967789	Captain Sonar 2/libs/SDL/include/SDL2/SDL_gesture.h	11f0f777411372ff
+721	885	7693413586564081	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test.h	f024077dc7e3501b
+92	251	7693413580157373	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_assert.h	cdde63f1485016cb
+266	419	7693413582117811	Captain Sonar 2/libs/SDL/include/SDL2/SDL_guid.h	a10f7d8196703214
+1754	1911	7693413596141284	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.obj	b7359aed90d326ab
+99	265	7693413580237395	Captain Sonar 2/libs/SDL/include/SDL2/SDL_atomic.h	cb0f66cfe9ef9299
+106	276	7693413580337421	Captain Sonar 2/libs/SDL/include/SDL2/SDL_audio.h	da4bcfda5f40be7c
+6236	7255	7693413640964101	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj	b175278f50ba2f95
+114	286	7693413580537455	Captain Sonar 2/libs/SDL/include/SDL2/SDL_bits.h	869d4d043ae1e37b
+155	510	7693418244822246	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj	a7bf4123d35e94f1
+114	286	7693413580537455	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_bits.h	869d4d043ae1e37b
+189	357	7693413581507677	Captain Sonar 2/libs/SDL/include/SDL2/SDL_error.h	4b3ce9af05ccc55d
+216	388	7693413581717720	Captain Sonar 2/libs/SDL/include/SDL2/SDL_filesystem.h	f07e467a4a84a322
+2983	3311	7693413608440760	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj	fd4ba367b69e7c94
+123	296	7693413580537455	Captain Sonar 2/libs/SDL/include/SDL2/SDL_blendmode.h	ac71699fa236e005
+611	788	7693413585643877	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_rwops.h	1ad37e0d68c525ee
+123	296	7693413580537455	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_blendmode.h	ac71699fa236e005
+348	507	7693413582907999	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_locale.h	5247cb2db295c1d3
+132	306	7693413580847526	Captain Sonar 2/libs/SDL/include/SDL2/SDL_clipboard.h	fe42658412318948
+160	519	7693418244872257	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj	412608a02ba2818b
+200	374	7693413581637701	Captain Sonar 2/libs/SDL/include/SDL2/SDL_events.h	f479dd3eb97944e7
+955	1030	7693413588844584	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/close_code.h	56efe5a5accbfe7b
+132	306	7693413580847526	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_clipboard.h	fe42658412318948
+398	555	7693413583358094	Captain Sonar 2/libs/SDL/include/SDL2/SDL_metal.h	5e6f6f1c0b3e1d4a
+3996	4853	7693413618562770	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj	4a0677c43f75a9cc
+141	319	7693413581137594	Captain Sonar 2/libs/SDL/include/SDL2/SDL_copying.h	167c4dbbb91c2534
+141	319	7693413581137594	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_copying.h	167c4dbbb91c2534
+6059	7092	7693413639193034	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj	b311529be029bbb6
+348	507	7693413582907999	Captain Sonar 2/libs/SDL/include/SDL2/SDL_locale.h	5247cb2db295c1d3
+157	329	7693413581177612	Captain Sonar 2/libs/SDL/include/SDL2/SDL_cpuinfo.h	ab446b733fb35059
+2706	2983	7693413605663548	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj	91e9494ace6ba4bd
+168	338	7693413581247621	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_egl.h	87041fa351900219
+200	374	7693413581637701	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_events.h	f479dd3eb97944e7
+179	348	7693413581357639	Captain Sonar 2/libs/SDL/include/SDL2/SDL_endian.h	48ed4a18f44769ad
+374	534	7693413583208064	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_main.h	c75a4ea687a74957
+2030	2228	7693413598901921	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj	d7b33086e623aa20
+179	348	7693413581357639	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_endian.h	48ed4a18f44769ad
+216	388	7693413581717720	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_filesystem.h	f07e467a4a84a322
+320	473	7693413582657944	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_keyboard.h	6ef30ad9e9a5e82
+228	397	7693413581807747	Captain Sonar 2/libs/SDL/include/SDL2/SDL_gamecontroller.h	9c587fd1d8b47989
+276	429	7693413582197828	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_haptic.h	9c4bb376072acaf1
+7093	7954	7693413649531059	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj	3c2ac73673f62f25
+296	454	7693413582457888	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_hints.h	b067ebb64e5d1265
+228	397	7693413581807747	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_gamecontroller.h	9c587fd1d8b47989
+398	555	7693413583358094	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_metal.h	5e6f6f1c0b3e1d4a
+252	407	7693413581967789	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_gesture.h	11f0f777411372ff
+1029	1514	7693435572047917	Captain Sonar 2/CMakeTarget.exe	fe02bd9331e435c3
+7970	8416	7693413658303325	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj	a16bf1a1f7d64d47
+7352	8081	7693413652121636	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj	1b40caf91c1f5275
+296	454	7693413582457888	Captain Sonar 2/libs/SDL/include/SDL2/SDL_hints.h	b067ebb64e5d1265
+223	600	7693418245502395	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj	5813d679e8556d7
+4354	4582	7693413622143701	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj	3aa121640654372a
+329	485	7693413582627936	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_keycode.h	43bc9540f50d471d
+266	419	7693413582117811	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_guid.h	a10f7d8196703214
+602	776	7693413585663872	Captain Sonar 2/libs/SDL/include/SDL2/SDL_render.h	e4813b71e77d97bb
+2999	3342	7693413608600785	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj	c5c80e0e2e367574
+339	494	7693413582777959	Captain Sonar 2/libs/SDL/include/SDL2/SDL_loadso.h	d6dc57d05dfbb271
+276	429	7693413582197828	Captain Sonar 2/libs/SDL/include/SDL2/SDL_haptic.h	9c4bb376072acaf1
+407	568	7693413583598141	Captain Sonar 2/libs/SDL/include/SDL2/SDL_misc.h	9e0c173386dee847
+3438	3601	7693413612991687	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj	c08d1d7f3a5eb60a
+286	444	7693413582167830	Captain Sonar 2/libs/SDL/include/SDL2/SDL_hidapi.h	b511181c18083982
+494	677	7693413584418514	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2.h	176b2026fa117cc7
+2745	3128	7693413606060017	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj	82b9eac644444d91
+5142	5402	7693413630030554	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj	f290a9cab4f241e7
+927	1220	7693418252541094	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj	2da6ddb7c78bf1aa
+286	444	7693413582167830	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_hidapi.h	b511181c18083982
+306	463	7693413582437884	Captain Sonar 2/libs/SDL/include/SDL2/SDL_joystick.h	d3ddb9a72c11cb0b
+306	463	7693413582437884	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_joystick.h	d3ddb9a72c11cb0b
+320	473	7693413582657944	Captain Sonar 2/libs/SDL/include/SDL2/SDL_keyboard.h	6ef30ad9e9a5e82
+329	485	7693413582627936	Captain Sonar 2/libs/SDL/include/SDL2/SDL_keycode.h	43bc9540f50d471d
+860	971	7693413588104417	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_random.h	6aeccf4e62a98efa
+389	545	7693413583368096	Captain Sonar 2/libs/SDL/include/SDL2/SDL_messagebox.h	5630d5e37fe0baf
+776	936	7693413587114192	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_font.h	d59f0684e1a84450
+2380	2550	7693413602407750	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj	6f7837818dbc1d82
+7954	8405	7693413658153300	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj	fd2feb3916c1881
+909	1241	7693418252365986	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj	3a4c2415aea08b86
+339	494	7693413582777959	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_loadso.h	d6dc57d05dfbb271
+358	525	7693413583058025	Captain Sonar 2/libs/SDL/include/SDL2/SDL_log.h	953f976454a66c63
+358	525	7693413583058025	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_log.h	953f976454a66c63
+374	534	7693413583208064	Captain Sonar 2/libs/SDL/include/SDL2/SDL_main.h	c75a4ea687a74957
+3012	3319	7693413608720810	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj	12cacd2ee98fc976
+3304	4040	7693413611641371	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj	84115bfe2b8a7c3
+419	576	7693413583648155	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_mouse.h	996f339ea71db7e0
+389	545	7693413583368096	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_messagebox.h	5630d5e37fe0baf
+429	591	7693413583798386	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_mutex.h	4197599315c3bce4
+407	568	7693413583598141	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_misc.h	9e0c173386dee847
+419	576	7693413583648155	Captain Sonar 2/libs/SDL/include/SDL2/SDL_mouse.h	996f339ea71db7e0
+1734	2380	7693413595941238	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj	a33d7d5ac71f3256
+7924	8284	7693413657843234	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj	e67c335126a59ecc
+429	591	7693413583798386	Captain Sonar 2/libs/SDL/include/SDL2/SDL_mutex.h	4197599315c3bce4
+190	490	7693418245172325	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj	e9a251693c4fff3a
+444	601	7693413583758363	Captain Sonar 2/libs/SDL/include/SDL2/SDL_name.h	6b5fb816c2c61ce1
+1188	1485	7693418255161686	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftver.rc.res	5bfa9cb798e4a19d
+444	601	7693413583758363	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_name.h	6b5fb816c2c61ce1
+1511	1726	7693413593710745	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj	177c023a15615d58
+454	610	7693413583938403	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengl.h	907b52dcb032adee
+611	788	7693413585643877	Captain Sonar 2/libs/SDL/include/SDL2/SDL_rwops.h	1ad37e0d68c525ee
+454	610	7693413583938403	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengl.h	907b52dcb032adee
+860	971	7693413588104417	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_random.h	6aeccf4e62a98efa
+464	626	7693413584098444	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengl_glext.h	1cf5551f5c99afc8
+464	626	7693413584098444	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengl_glext.h	1cf5551f5c99afc8
+1702	2391	7693413595621170	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj	70f09f3830239970
+474	636	7693413584038428	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles.h	8d908ba7c0d1d3f6
+474	636	7693413584038428	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles.h	8d908ba7c0d1d3f6
+485	647	7693413584138453	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2.h	803eca708e4b4824
+485	647	7693413584138453	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2.h	803eca708e4b4824
+494	677	7693413584418514	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2.h	176b2026fa117cc7
+507	688	7693413584488534	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2ext.h	5286d2df578c8dec
+507	688	7693413584488534	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2ext.h	5286d2df578c8dec
+804	955	7693413587434268	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_harness.h	8a62f25834f5d6d7
+525	697	7693413584548546	Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2platform.h	a8bbd2c4e74c71f4
+7113	7823	7693413649731111	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj	8b1aea2358e73fd0
+525	697	7693413584548546	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_gl2platform.h	a8bbd2c4e74c71f4
+5243	5910	7693413631065871	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj	4a896eca95363117
+534	707	7693413584783670	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_opengles2_khrplatform.h	bec72102d7e5d117
+7079	7770	7693413649391025	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj	b34f8e37dc96a6f9
+545	721	7693413584813693	Captain Sonar 2/libs/SDL/include/SDL2/SDL_pixels.h	69e100e52abbe82c
+1054	1532	7693413589144653	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj	800415a9c21b31a3
+545	721	7693413584813693	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_pixels.h	69e100e52abbe82c
+556	731	7693413584943720	Captain Sonar 2/libs/SDL/include/SDL2/SDL_platform.h	7a3760d430a86c9e
+874	972	7693413588154437	Captain Sonar 2/libs/SDL/include/SDL2/SDL_thread.h	665aebfd13ce7481
+556	731	7693413584943720	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_platform.h	7a3760d430a86c9e
+751	916	7693413586954162	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_compare.h	ece21f981d3f9c4
+568	741	7693413585133750	Captain Sonar 2/libs/SDL/include/SDL2/SDL_power.h	a5c5c14189e30731
+688	848	7693413586183997	Captain Sonar 2/libs/SDL/include/SDL2/SDL_surface.h	e5ee8b75b527e2c9
+2728	2991	7693413605879975	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj	318d13fe048dbf7
+568	741	7693413585133750	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_power.h	a5c5c14189e30731
+577	751	7693413585273781	Captain Sonar 2/libs/SDL/include/SDL2/SDL_quit.h	2c61e241e96e09
+577	751	7693413585273781	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_quit.h	2c61e241e96e09
+591	765	7693413585313796	Captain Sonar 2/libs/SDL/include/SDL2/SDL_rect.h	2ad42ee88b7e063b
+591	765	7693413585313796	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_rect.h	2ad42ee88b7e063b
+602	776	7693413585663872	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_render.h	e4813b71e77d97bb
+626	803	7693413585643877	Captain Sonar 2/libs/SDL/include/SDL2/SDL_scancode.h	10679d6bf3b88f1c
+8284	9740	7693413661444039	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj	157d56ac5e2166b
+626	803	7693413585643877	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_scancode.h	10679d6bf3b88f1c
+636	817	7693413585823905	Captain Sonar 2/libs/SDL/include/SDL2/SDL_sensor.h	2909adf46db16ed6
+636	817	7693413585823905	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_sensor.h	2909adf46db16ed6
+648	827	7693413586053959	Captain Sonar 2/libs/SDL/include/SDL2/SDL_shape.h	79510980e49fbf63
+648	827	7693413586053959	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_shape.h	79510980e49fbf63
+677	839	7693413586213997	Captain Sonar 2/libs/SDL/include/SDL2/SDL_stdinc.h	f4f147d8f57b0e43
+8304	9164	7693413661644080	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj	c7bc19dbd8e6536c
+677	839	7693413586213997	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_stdinc.h	f4f147d8f57b0e43
+688	848	7693413586183997	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_surface.h	e5ee8b75b527e2c9
+697	860	7693413586334033	Captain Sonar 2/libs/SDL/include/SDL2/SDL_system.h	fa0a80182152b8c5
+4532	4746	7693413623924107	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj	d7f24b0540afa7de
+697	860	7693413586334033	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_system.h	fa0a80182152b8c5
+1095	1905	7693413589554741	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj	ac536dd6a0c3f7e5
+707	874	7693413586554082	Captain Sonar 2/libs/SDL/include/SDL2/SDL_syswm.h	c4a3e0e5bfe0743a
+707	874	7693413586554082	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_syswm.h	c4a3e0e5bfe0743a
+731	895	7693413586654096	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_assert.h	ca0220e9e88ddc63
+721	885	7693413586564081	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test.h	f024077dc7e3501b
+731	895	7693413586654096	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_assert.h	ca0220e9e88ddc63
+8104	8549	7693413659643633	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj	f106c6284993307c
+742	905	7693413586794119	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_common.h	f4dd29ef09a240b0
+742	905	7693413586794119	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_common.h	f4dd29ef09a240b0
+4561	5304	7693413624214209	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj	e1d454d02649965c
+751	916	7693413586954162	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_compare.h	ece21f981d3f9c4
+7559	7923	7693413654197165	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj	3efed0d97456d8bc
+765	926	7693413587024174	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_crc32.h	4ffefa0b68cf8bf7
+765	926	7693413587024174	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_crc32.h	4ffefa0b68cf8bf7
+776	936	7693413587114192	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_font.h	d59f0684e1a84450
+789	945	7693413587334242	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_fuzzer.h	a4b4ba3b52a44c4e
+3601	3872	7693413614612038	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj	4336fc666e9fef2c
+789	945	7693413587334242	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_fuzzer.h	a4b4ba3b52a44c4e
+3312	3852	7693413611721389	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj	4bef203dc43d7f8d
+804	955	7693413587434268	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_harness.h	8a62f25834f5d6d7
+2861	3095	7693413607240288	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj	3a2971bfc0f4ac56
+818	964	7693413587484284	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_images.h	3cc94c4bd0d98548
+1518	1754	7693413593790763	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj	3197049ad505145
+2005	2727	7693413598651859	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj	b82a7bb80b0f396d
+818	964	7693413587484284	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_images.h	3cc94c4bd0d98548
+828	965	7693413587664323	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_log.h	6ee7f8cbd68cb2e8
+828	965	7693413587664323	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_log.h	6ee7f8cbd68cb2e8
+7770	8104	7693413656302701	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj	75d8085ea093edee
+839	965	7693413587764339	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_md5.h	1e91ad46cae7320c
+5065	5411	7693413629255307	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj	b2cc8013390c7986
+839	965	7693413587764339	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_md5.h	1e91ad46cae7320c
+848	966	7693413587834358	Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_memory.h	fdc894b73f223d04
+4367	4720	7693413622273731	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj	37403a3f65b7043d
+848	966	7693413587834358	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_test_memory.h	fdc894b73f223d04
+874	972	7693413588154437	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_thread.h	665aebfd13ce7481
+886	975	7693413588234443	Captain Sonar 2/libs/SDL/include/SDL2/SDL_timer.h	fa513924589353e0
+886	975	7693413588234443	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_timer.h	fa513924589353e0
+896	994	7693413588444499	Captain Sonar 2/libs/SDL/include/SDL2/SDL_touch.h	769700b457a8be71
+896	994	7693413588444499	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_touch.h	769700b457a8be71
+905	997	7693413588444499	Captain Sonar 2/libs/SDL/include/SDL2/SDL_types.h	ac18f118bc6e9064
+905	997	7693413588444499	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_types.h	ac18f118bc6e9064
+1745	2533	7693413596061274	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj	305fef50f46013e2
+926	1007	7693413588604535	Captain Sonar 2/libs/SDL/include/SDL2/SDL_video.h	66ebb3202d1dfa9d
+926	1007	7693413588604535	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_video.h	66ebb3202d1dfa9d
+916	1009	7693413588614537	Captain Sonar 2/libs/SDL/include/SDL2/SDL_version.h	9bdb5b0bc1961696
+916	1009	7693413588614537	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_version.h	9bdb5b0bc1961696
+5483	6248	7693413633441587	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj	b601b163949d543f
+936	1023	7693413588764567	Captain Sonar 2/libs/SDL/include/SDL2/SDL_vulkan.h	fa59e6ea6cae7c9d
+1905	2705	7693413597661640	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj	73c16841d5b9ba3f
+936	1023	7693413588764567	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/SDL_vulkan.h	fa59e6ea6cae7c9d
+3343	3550	7693413612031470	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj	6ca815ce736acc12
+946	1028	7693413588824589	Captain Sonar 2/libs/SDL/include/SDL2/begin_code.h	1f20362fb92bbe7e
+946	1028	7693413588824589	C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug/Captain Sonar 2/libs/SDL/include/SDL2/begin_code.h	1f20362fb92bbe7e
+3853	3995	7693413617127199	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj	6edba85bb5aa1e26
+1221	1615	7693418255481771	Captain Sonar 2/libs/SDL_ttf/CMakeFiles/SDL2_ttf.dir/SDL_ttf.c.obj	8b9e941fe3edcc82
+955	1030	7693413588844584	Captain Sonar 2/libs/SDL/include/SDL2/close_code.h	56efe5a5accbfe7b
+3551	3842	7693413614111937	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj	d43eb0163bce2735
+1115	1499	7693413589754785	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj	4862ca3f03bf5731
+1048	1510	7693413589084633	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj	3809a8de0d4aab80
+1082	1518	7693413589424709	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj	53744807e228966b
+1061	1525	7693413589214669	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj	7de64779042f055c
+5898	6696	7693413637582670	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj	41847d856250319d
+1089	1540	7693413589484731	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj	528695e9f1d1b96d
+4071	4304	7693413619307994	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj	194c302ba5700fa3
+1043	1701	7693413589034624	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj	58ea2ea8675d3c35
+1067	1718	7693413589274681	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj	dbb324f8f4dcd897
+1502	1733	7693413593630725	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj	2bc883d9be6b90a1
+1109	1745	7693413589694774	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj	185a8b6a5059e597
+2074	2560	7693413599342007	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj	8620720072563313
+1074	1920	7693413589344697	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj	593eceb139a6772
+1526	2004	7693413593860774	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj	957a711f767eaa08
+3153	4024	7693413610131043	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	42e03a9544e447ce
+6103	7105	7693413639638734	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj	2f36dc8ce71581d2
+7788	8304	7693413656482918	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj	7f44aeef3f0759f2
+1101	2018	7693413589614759	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj	4bf49b2a485a4d1
+1037	2029	7693413588974615	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj	10aa1608eca8b5a3
+1920	2074	7693413597811659	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.obj	9c7d662014b0a0b0
+1031	2134	7693413588914600	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj	817b0fdfb259850b
+4205	4865	7693413620648304	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj	bdaa9c605e02d86
+1540	2243	7693413594000803	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj	16f0f3425bf43aab
+3843	4168	7693413617027183	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj	598903261ce497bb
+1718	2349	7693413595791214	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj	cd4ae19f73130ba7
+6082	7079	7693413639418685	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj	cc8212942727478e
+1044	1505	7693418253711357	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/type42/type42.c.obj	e6da1c6b8c5fc315
+2135	2356	7693413599952143	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj	61815fd9e94c87ea
+7512	8214	7693413653727072	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj	414078ad8a2b089c
+1533	2368	7693413593930787	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj	52a21ca55fa84f31
+8434	9196	7693413662944381	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj	e56e62c0d536bc8
+2368	2543	7693413602287762	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj	a27dbb27b6603a87
+7584	8092	7693413654442281	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj	c64ef87f321bb116
+1911	2683	7693413597711646	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj	101be6eede896cfd
+2392	2692	7693413602517773	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj	76de6502967aa28
+2496	2713	7693413603568006	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj	e0ee0a4a119d702b
+2019	2745	7693413598791883	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj	2389dd1faad1db3f
+4041	4573	7693413619012873	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj	555d7e7c21e19c55
+4573	5328	7693413624334197	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj	7ad8922753f3fa92
+178	477	7693418245052296	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj	75b13a705c4de1f2
+2551	2844	7693413604108132	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj	f712cac50a091732
+2692	2884	7693413605523514	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj	96d82c58f3b4d28f
+2560	2861	7693413604208151	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj	643af093ccd33e82
+2543	2874	7693413604038117	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj	cbb611031786da1f
+2684	2892	7693413605443500	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj	38722d9da5226359
+2713	2999	7693413605733565	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj	b70c22b3b0525f9b
+2357	3011	7693413602172646	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj	da5a7e2dab86e4ff
+2845	3104	7693413607050248	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj	3d6891c081d8c8a6
+2229	3120	7693413600892358	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj	ecb9cc7e58bc5941
+4314	5024	7693413621738543	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj	2848a250a3626d83
+2875	3137	7693413607350310	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj	138caab1fca58df2
+143	668	7693418244701377	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj	fad5ae0e53829655
+2893	3145	7693413607530548	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj	9b3f60c7f8747088
+2853	3153	7693413607140263	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj	23f5b3ef50da3b7a
+2243	3167	7693413601042397	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj	9ce5c23d472e2f9c
+2349	3297	7693413602092623	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj	e5a6c88ddd6335cb
+1231	1502	7693418255581778	Captain Sonar 2/libs/SDL_ttf/CMakeFiles/SDL2_ttf.dir/version.rc.res	47fc7e37e7805576
+3096	3304	7693413609565823	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj	5ad8bcd2d9b4262f
+2991	3327	7693413608520765	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj	d7bf5482808764f
+2884	3335	7693413607450526	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj	ba823295abb7ba33
+3120	3438	7693413609810972	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj	f7bd18a3799c19a4
+3104	3459	7693413609645837	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj	dc2611d2cb4eb1e3
+3863	4048	7693413617237400	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj	617fd8e2ad37bb81
+3319	3467	7693413611801409	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj	70c1d798becbcc22
+8417	9204	7693413662774342	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj	44f67699e1edbee6
+3335	3677	7693413611951442	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj	85707ca9f580a26b
+3823	4176	7693413616827142	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj	609131b5a94afaff
+168	396	7693426860896881	Captain Sonar 2/CMakeFiles/CMakeTarget.dir/imgui_impl_sdlrenderer2.cpp.obj	95c2565210e4e386
+3460	3822	7693413613201724	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj	dfd0cc4b40601274
+3467	3832	7693413613281737	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj	5bca67a1d7139957
+1200	2702	7693418265050696	Captain Sonar 2/libs/SDL/SDL2d.dll	fa62d8bd4e97facf
+3137	3863	7693413609970998	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj	3496fb61594a7878
+3872	4012	7693413617327422	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj	8a444ab23f68d69c
+3678	4058	7693413615381736	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj	251cfe4a475cdeb6
+3297	4070	7693413611571358	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj	9b26a14c8a35acb4
+6921	7569	7693413647810842	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj	2a056918bf44767b
+3327	4085	7693413611871423	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj	4f0545a0842deced
+4025	4182	7693413618852839	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj	6d4a87a83395a031
+4012	4188	7693413618722804	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj	f285d3311040976b
+3129	4204	7693413609890983	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj	8c7c68f1185e5d8e
+736	1231	7693418250633906	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj	6ef58b67fc9953be
+4085	4313	7693413619458038	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj	ae4b1ff6a0acfb0c
+3167	4330	7693413610281084	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	7bdd6c625cde206a
+3145	4346	7693413610061018	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj	e0e86a07c71d708b
+5496	6046	7693413633561613	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj	5421d523fbeeece3
+4049	4353	7693413619092892	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj	5f8681ceb8340743
+1200	2702	7693418265050696	Captain Sonar 2/libs/SDL/SDL2d.lib	fa62d8bd4e97facf
+4182	4360	7693413620428252	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj	a1bd74b7b1481db9
+4168	4367	7693413620288220	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj	8823c837514fa55
+4176	4432	7693413620368234	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj	337d53d25bfd0640
+4058	4532	7693413619182916	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj	834a4608549f9b40
+3832	4550	7693413616927156	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj	ffe634124c085264
+4330	4561	7693413621913653	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj	de1ade2d25ab98d1
+4433	4734	7693413622933896	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj	4ae005707a9ee69d
+4361	4799	7693413622213721	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj	a53df0154596aaee
+4189	4829	7693413620488263	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj	e24a52330ee836e4
+4551	4838	7693413624114157	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj	1bcc0f3a92491d21
+4582	4925	7693413624424214	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj	7ba90e93c70cf08f
+4735	5011	7693413625954568	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj	10fafaa530574d63
+4304	5065	7693413621648530	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj	5e37840a6768db93
+4346	5110	7693413622063682	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj	21565804b35711c6
+4800	5142	7693413626604709	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj	8076541ab0adba18
+4926	5150	7693413627864999	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj	acd3a291bb303f82
+7824	8294	7693413656842997	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj	eca9ef94b80670d
+4866	5227	7693413627264855	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj	2da05463915a80ee
+5025	5240	7693413628855211	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj	5251dda07e7a0c6f
+520	1076	7693418248468351	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/cff/cff.c.obj	4837f88657d5017a
+5011	5314	7693413628715184	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj	81f1ae96cc7aec3f
+4747	5451	7693413626074595	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj	6660d94eeab6484a
+7812	8619	7693413656722972	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj	229c4d792ac4a5d1
+4853	5473	7693413627134823	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj	dad344c1f58ef22d
+5111	5483	7693413629710479	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj	454320f3dd44b6f7
+6696	7969	7693413645570340	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj	3e501372dfb33f8e
+4720	5495	7693413625814535	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj	28f4c246f992fee9
+4830	5718	7693413626904774	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj	986cfb4e4192fe86
+4839	5733	7693413626984797	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj	241b66f7a9a485df
+5228	5887	7693413630875815	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj	fc12fba4bb2784da
+5150	5898	7693413630100570	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj	a3fe6d99614255b5
+538	1043	7693418248648385	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj	fecfeb3a0b952249
+5315	6030	7693413631756165	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj	8231371945e983df
+5329	6059	7693413631891232	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.obj	738caecdc106211b
+145	960	7693423001905444	Captain Sonar 2/CMakeFiles/ImGui.dir/libs/imgui/imgui.cpp.obj	4b66c7b9230c78d2
+5452	6068	7693413633121517	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj	fe73c696107d159e
+5305	6081	7693413631656137	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.obj	6fa9dc82f36c327e
+5403	6092	7693413632631402	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.obj	d309eab084fdd90f
+6956	7811	7693413648160755	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj	42dfb5c323641610
+5411	6103	7693413632711421	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.obj	5724bc3c3e1081b
+5474	6236	7693413633341564	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj	1de118e63cbe2061
+152	255	7693424465115807	Captain Sonar 2/ImGui.lib	b1817403907dfbcd
+5719	6400	7693413635792113	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj	d352702a9645fdcb
+1077	1500	7693418254041434	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj	aa8c8eff9d8d98df
+5733	6436	7693413635932140	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj	1f79479ad08c3cc1
+859	1171	7693418251869521	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj	393eb2d5f2c12c9c
+5910	6710	7693413637712703	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj	db18ceac25d72c19
+917	1481	7693418252441075	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj	7dd2fd112c7efa48
+5887	6724	7693413637472651	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj	629a02ea477b0f66
+6031	6920	7693413638912980	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj	73b3f50e9d4a4b82
+6069	6939	7693413639288667	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj	ab3ca1956cfbbf8b
+6093	6955	7693413639538724	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj	6fe4ff9cb617fefb
+6046	7066	7693413639063007	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj	abf588e368af627d
+6725	7112	7693413645850401	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj	ed9042c88cbd5a34
+6248	7352	7693413641084134	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj	fe65d52911d51659
+6940	7512	7693413648000733	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj	cdda8d4657c85203
+6436	7558	7693413642964684	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj	56d776b866a5a792
+6401	7583	7693413642619550	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj	ecd794b6dd8a1120
+8071	8434	7693413659313559	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj	64a4e628268aca17
+7106	7787	7693413649661099	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj	d97f9818fd39131a
+7067	7801	7693413649270997	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj	67a2ac444ad83f58
+1619	1747	7693418259459411	Captain Sonar 2/libs/SDL_ttf/external/freetype/freetyped.lib	b6dd8c32ebfdd3eb
+6710	7940	7693413645710365	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj	7fd5f231f6de0fbf
+7570	8070	7693413654307196	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj	cd55a01112b2eede
+7801	8187	7693413656612946	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj	e614e567aec1f951
+181	1150	7693422144746236	Captain Sonar 2/libs/SDL_ttf/SDL2_ttfd.dll	458cc57e32762c06
+7941	8314	7693413658013271	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj	585e2334de03313
+465	909	7693418247928025	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.obj	cc711a27788e5810
+7256	8496	7693413651161424	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj	fa0195e764cd7665
+501	871	7693418248288304	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj	d887bf4302f95081
+8082	8534	7693413659423581	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj	f7cf9d98e9fe7d00
+8092	8553	7693413659533618	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj	38d5749c9a90cb9f
+8496	8782	7693413663574525	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.res	10027dfd052487c1
+8188	8826	7693413660493836	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj	9fcc7b536e1068cb
+8214	9070	7693413660753887	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj	3a22bdc329f32409
+8314	9172	7693413661744117	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj	b30fffcba82d2067
+8405	9232	7693413662664325	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj	77d387c4768269ac
+8294	9747	7693413661554064	Captain Sonar 2/libs/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj	331984008347b5bd
+197	428	7693418245242336	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj	4ea051fe52288638
+165	445	7693418244932270	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj	709f6e220221e651
+203	454	7693418245312358	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.obj	457b67cdec4314db
+168	706	7693423002135497	Captain Sonar 2/CMakeFiles/ImGui.dir/libs/imgui/imgui_widgets.cpp.obj	ae5ba97e772abe8c
+172	464	7693418244992302	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.obj	6704ec4b900b9b09
+210	501	7693418245382369	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.obj	2bdc8b7683eb7de7
+217	528	7693418245442388	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.obj	8de2c8e22b235a42
+183	537	7693418245112308	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj	e2da731c32a63e7c
+149	735	7693418244761389	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.obj	4183a29a8a222dc2
+430	801	7693418247577946	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj	9b5e2090fdc795f0
+446	858	7693418247727995	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj	e21843fbb975bbf5
+455	898	7693418247817999	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj	70d63055d14fbe3
+478	916	7693418248058058	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj	58ed0f6af9e817d0
+511	926	7693418248378319	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj	2ab64913886c7a7e
+491	937	7693418248178085	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj	7438cc6c388af2f7
+600	946	7693418249278527	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj	d343700666e9580f
+528	955	7693418248558363	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj	6f10a97f50d79189
+669	1157	7693418249968675	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj	40dfd980cabe2fdf
+898	1188	7693418252255699	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/raster/raster.c.obj	56d60892f36de9cb
+938	1199	7693418252651125	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/svg/svg.c.obj	47409546bed389f2
+872	1331	7693418252004950	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj	230733c7c85c0509
+802	1394	7693418251299129	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj	f819be41b6d6bbea
+947	1430	7693418252741139	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj	f41b508df0f4b3c7
+956	1466	7693418252841175	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/src/type1/type1.c.obj	8eb031e342990225
+1172	1484	7693418254991657	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj	ade9c80ec40feb23
+1158	1619	7693418254851619	Captain Sonar 2/libs/SDL_ttf/external/freetype/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj	30273fb73095ad30
+163	535	7693423002085483	Captain Sonar 2/CMakeFiles/ImGui.dir/libs/imgui/imgui_tables.cpp.obj	778a85b582ff1690
+151	560	7693423001965463	Captain Sonar 2/CMakeFiles/ImGui.dir/libs/imgui/imgui_demo.cpp.obj	a561c6652b9c195c
+157	630	7693423002025469	Captain Sonar 2/CMakeFiles/ImGui.dir/libs/imgui/imgui_draw.cpp.obj	4662224f2f98ef2c
+181	1150	7693422144746236	Captain Sonar 2/libs/SDL_ttf/SDL2_ttfd.lib	458cc57e32762c06
+173	605	7693426860946895	Captain Sonar 2/CMakeFiles/CMakeTarget.dir/imgui_impl_sdl2.cpp.obj	d70a7738f80658b1
+139	1028	7693435563147740	Captain Sonar 2/CMakeFiles/CMakeTarget.dir/SonarCommand.cpp.obj	940046511517a82f

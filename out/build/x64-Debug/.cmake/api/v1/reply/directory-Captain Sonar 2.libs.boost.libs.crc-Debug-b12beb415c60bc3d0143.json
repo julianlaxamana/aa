@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Captain Sonar 2/libs/boost/libs/crc",
+		"source" : "Captain Sonar 2/libs/boost/libs/crc"
+	}
+}

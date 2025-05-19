@@ -1,0 +1,218 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/stacktrace/boost_stacktrace_windbg-vc143-mt-gd-x64-1_89.dll"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/stacktrace/boost_stacktrace_windbg-vc143-mt-gd-x64-1_89.lib"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/stacktrace/boost_stacktrace_windbg-vc143-mt-gd-x64-1_89.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"stacktrace_add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"Captain Sonar 2/libs/boost/libs/stacktrace/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_STACKTRACE_DYN_LINK"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_STACKTRACE_NO_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_STACKTRACE_SOURCE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_GNU_SOURCE=1"
+				},
+				{
+					"define" : "boost_stacktrace_windbg_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/stacktrace/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/describe/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/mp11/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/core/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/assert/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/predef/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/winapi/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "boost_stacktrace_windbg::@d206d7e312b286019465",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "dbgeng.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "boost_stacktrace_windbg",
+	"nameOnDisk" : "boost_stacktrace_windbg-vc143-mt-gd-x64-1_89.dll",
+	"paths" : 
+	{
+		"build" : "Captain Sonar 2/libs/boost/libs/stacktrace",
+		"source" : "Captain Sonar 2/libs/boost/libs/stacktrace"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/stacktrace/src/windbg.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

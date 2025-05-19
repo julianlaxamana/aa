@@ -1,0 +1,447 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/test/boost_unit_test_framework-vc143-mt-gd-x64-1_89.dll"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/test/boost_unit_test_framework-vc143-mt-gd-x64-1_89.lib"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/test/boost_unit_test_framework-vc143-mt-gd-x64-1_89.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"boost_test_add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"Captain Sonar 2/libs/boost/libs/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_TEST_DYN_LINK"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_TEST_NO_LIB"
+				},
+				{
+					"define" : "boost_unit_test_framework_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/test/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/algorithm/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/array/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/assert/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/bind/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/core/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/concept_check/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/exception/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/smart_ptr/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/tuple/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/function/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/iterator/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/detail/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/fusion/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/container_hash/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/describe/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/mp11/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/function_types/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/mpl/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/predef/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/utility/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/io/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/typeof/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/functional/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/optional/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/range/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/conversion/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/regex/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/unordered/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/numeric/conversion/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "boost_optional::@38dc12bc04a20e0ffbd2"
+		}
+	],
+	"id" : "boost_unit_test_framework::@bb45cc6593e122231640",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "boost_unit_test_framework",
+	"nameOnDisk" : "boost_unit_test_framework-vc143-mt-gd-x64-1_89.dll",
+	"paths" : 
+	{
+		"build" : "Captain Sonar 2/libs/boost/libs/test",
+		"source" : "Captain Sonar 2/libs/boost/libs/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/compiler_log_formatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/decorator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/execution_monitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/framework.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/junit_log_formatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/plain_report_formatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/progress_monitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/results_collector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/results_reporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/test_framework_init_observer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/test_tools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/test_tree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/unit_test_log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/unit_test_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/unit_test_monitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/unit_test_parameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/xml_log_formatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/test/src/xml_report_formatter.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

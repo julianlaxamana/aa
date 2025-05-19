@@ -1,0 +1,242 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/boost_chrono-vc143-mt-gd-x64-1_89.dll"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/boost_chrono-vc143-mt-gd-x64-1_89.lib"
+		},
+		{
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/boost_chrono-vc143-mt-gd-x64-1_89.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_compile_definitions",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"C:/Users/Julian/Downloads/vcpkg/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"Captain Sonar 2/libs/boost/libs/chrono/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_CHRONO_DYN_LINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_CHRONO_SOURCE"
+				},
+				{
+					"define" : "boost_chrono_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/chrono/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/assert/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/config/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/core/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/static_assert/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/throw_exception/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/integer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/type_traits/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/move/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/mpl/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/predef/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/preprocessor/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/utility/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/io/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/ratio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/system/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/variant2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/mp11/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/winapi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Julian/source/repos/Captain Sonar 2/Captain Sonar 2/libs/boost/libs/typeof/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "boost_chrono::@433e6a30bd8af81b6aa2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "boost_chrono",
+	"nameOnDisk" : "boost_chrono-vc143-mt-gd-x64-1_89.dll",
+	"paths" : 
+	{
+		"build" : "Captain Sonar 2/libs/boost/libs/chrono",
+		"source" : "Captain Sonar 2/libs/boost/libs/chrono"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/src/chrono.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/src/process_cpu_clocks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Captain Sonar 2/libs/boost/libs/chrono/src/thread_clock.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

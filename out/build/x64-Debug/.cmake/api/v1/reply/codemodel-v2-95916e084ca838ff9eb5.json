@@ -1,0 +1,3971 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Captain Sonar 2",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Captain Sonar 2-Debug-c4e28918f7461a1e64ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Captain Sonar 2",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/SDL",
+					"jsonFile" : "directory-Captain Sonar 2.libs.SDL-Debug-0b649781d388868feb2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Captain Sonar 2/libs/SDL",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6,
+						48,
+						49
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/SDL_ttf",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Captain Sonar 2.libs.SDL_ttf-Debug-f1278542839cb264d299.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Captain Sonar 2/libs/SDL_ttf",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/SDL_ttf/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Captain Sonar 2.libs.SDL_ttf.external.freetype-Debug-b688077c944b31fd8cd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "Captain Sonar 2/libs/SDL_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155
+					],
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost-Debug-d60262ae5213aeacba70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Captain Sonar 2/libs/boost"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/accumulators",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.accumulators-Debug-2bd9a6d3e41c27a9c915.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "Captain Sonar 2/libs/boost/libs/accumulators"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/algorithm",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.algorithm-Debug-e975c2182944aeeb152c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "Captain Sonar 2/libs/boost/libs/algorithm"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/align",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.align-Debug-3a26d6dd61fefefa51df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 7,
+					"source" : "Captain Sonar 2/libs/boost/libs/align"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/any",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.any-Debug-36bcb4acbbae3b6ce45e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 8,
+					"source" : "Captain Sonar 2/libs/boost/libs/any"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/array",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.array-Debug-6f57534944867d93b735.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 9,
+					"source" : "Captain Sonar 2/libs/boost/libs/array"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/asio",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.asio-Debug-d644482110be15749455.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 10,
+					"source" : "Captain Sonar 2/libs/boost/libs/asio"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/assert",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.assert-Debug-6bba555e7454e0bec22c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 11,
+					"source" : "Captain Sonar 2/libs/boost/libs/assert"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/assign",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.assign-Debug-307d7002029585307e2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 12,
+					"source" : "Captain Sonar 2/libs/boost/libs/assign"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/atomic",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.atomic-Debug-da5151f4b0626fc694a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 13,
+					"source" : "Captain Sonar 2/libs/boost/libs/atomic",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/beast",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.beast-Debug-d6e3f3b239f90a208c02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 14,
+					"source" : "Captain Sonar 2/libs/boost/libs/beast"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/bimap",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.bimap-Debug-64e47e9718d6b17fc25c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 15,
+					"source" : "Captain Sonar 2/libs/boost/libs/bimap"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/bind",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.bind-Debug-8bee99064ab906d8e3da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 16,
+					"source" : "Captain Sonar 2/libs/boost/libs/bind"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/callable_traits",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.callable_traits-Debug-a478176061fb881eced6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 17,
+					"source" : "Captain Sonar 2/libs/boost/libs/callable_traits"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/charconv",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.charconv-Debug-429ca7117c74a768c4bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 18,
+					"source" : "Captain Sonar 2/libs/boost/libs/charconv",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/chrono",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.chrono-Debug-46e8d58d9bf068469e39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 19,
+					"source" : "Captain Sonar 2/libs/boost/libs/chrono",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/circular_buffer",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.circular_buffer-Debug-8be1ff226b209379630e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 20,
+					"source" : "Captain Sonar 2/libs/boost/libs/circular_buffer"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/cobalt",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.cobalt-Debug-3bd06a4240930ccee97c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 21,
+					"source" : "Captain Sonar 2/libs/boost/libs/cobalt",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/compat",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.compat-Debug-86ba3af648d8979d5698.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 22,
+					"source" : "Captain Sonar 2/libs/boost/libs/compat"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/compute",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.compute-Debug-cfbaef1c8d339e623561.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 23,
+					"source" : "Captain Sonar 2/libs/boost/libs/compute"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/concept_check",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.concept_check-Debug-3fbe8026b34443bd310e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 24,
+					"source" : "Captain Sonar 2/libs/boost/libs/concept_check"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/config",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.config-Debug-881208a5390d036126d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 25,
+					"source" : "Captain Sonar 2/libs/boost/libs/config"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/container",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.container-Debug-d8725287a21a004fb42b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 26,
+					"source" : "Captain Sonar 2/libs/boost/libs/container",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/container_hash",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.container_hash-Debug-6049ba98e3aea571b31e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 27,
+					"source" : "Captain Sonar 2/libs/boost/libs/container_hash"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/context",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.context-Debug-8306f31d6963b53812e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 28,
+					"source" : "Captain Sonar 2/libs/boost/libs/context",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/contract",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.contract-Debug-1259cb64f720f5ad6077.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 29,
+					"source" : "Captain Sonar 2/libs/boost/libs/contract",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/conversion",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.conversion-Debug-ede4eae12646ae62ec24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 30,
+					"source" : "Captain Sonar 2/libs/boost/libs/conversion"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/convert",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.convert-Debug-b73ad8e852560e92b8f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 31,
+					"source" : "Captain Sonar 2/libs/boost/libs/convert"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/core",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.core-Debug-8c5eb9a32497415d4574.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 32,
+					"source" : "Captain Sonar 2/libs/boost/libs/core"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/coroutine",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.coroutine-Debug-42cad67fd279c9e10906.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 33,
+					"source" : "Captain Sonar 2/libs/boost/libs/coroutine",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/coroutine2",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.coroutine2-Debug-e9c43cbf9cb221691772.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 34,
+					"source" : "Captain Sonar 2/libs/boost/libs/coroutine2"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/crc",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.crc-Debug-b12beb415c60bc3d0143.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 35,
+					"source" : "Captain Sonar 2/libs/boost/libs/crc"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/date_time",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.date_time-Debug-91dc530533122519ff2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 36,
+					"source" : "Captain Sonar 2/libs/boost/libs/date_time",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/describe",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.describe-Debug-3b2b2bbe4ce23162f005.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 37,
+					"source" : "Captain Sonar 2/libs/boost/libs/describe"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/detail",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.detail-Debug-cc1dc8545bd3348ced38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 38,
+					"source" : "Captain Sonar 2/libs/boost/libs/detail"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/dll",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.dll-Debug-f75b6d73fabb3291ba91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 39,
+					"source" : "Captain Sonar 2/libs/boost/libs/dll"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/dynamic_bitset",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.dynamic_bitset-Debug-92e0634f4ba5b07f58c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 40,
+					"source" : "Captain Sonar 2/libs/boost/libs/dynamic_bitset"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/endian",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.endian-Debug-e98df314863e120828eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 41,
+					"source" : "Captain Sonar 2/libs/boost/libs/endian"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/exception",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.exception-Debug-64276add4eff589e0244.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 42,
+					"source" : "Captain Sonar 2/libs/boost/libs/exception"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/fiber",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.fiber-Debug-06c1f1c5e9def1ee6434.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 43,
+					"source" : "Captain Sonar 2/libs/boost/libs/fiber",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/filesystem",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.filesystem-Debug-8096d2c5d5bf79f72b1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 44,
+					"source" : "Captain Sonar 2/libs/boost/libs/filesystem",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/flyweight",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.flyweight-Debug-a4e3fe8063096b3eec4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 45,
+					"source" : "Captain Sonar 2/libs/boost/libs/flyweight"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/foreach",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.foreach-Debug-647751261b97ea7d70a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 46,
+					"source" : "Captain Sonar 2/libs/boost/libs/foreach"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/format",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.format-Debug-13bc79071ecce67159fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 47,
+					"source" : "Captain Sonar 2/libs/boost/libs/format"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/function",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.function-Debug-146f262c67ab20deabdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 48,
+					"source" : "Captain Sonar 2/libs/boost/libs/function"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/function_types",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.function_types-Debug-109f42bd2204f1ca40fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 49,
+					"source" : "Captain Sonar 2/libs/boost/libs/function_types"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/functional",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.functional-Debug-cff1a5d0e3136b1f16a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 50,
+					"source" : "Captain Sonar 2/libs/boost/libs/functional"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/fusion",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.fusion-Debug-78c89a55df16e1d5aaa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 51,
+					"source" : "Captain Sonar 2/libs/boost/libs/fusion"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/geometry",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.geometry-Debug-e083ef667fa1829ce4aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 52,
+					"source" : "Captain Sonar 2/libs/boost/libs/geometry"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/gil",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.gil-Debug-81a8bf5c550d88efa5d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 53,
+					"source" : "Captain Sonar 2/libs/boost/libs/gil"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/graph",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.graph-Debug-5d269eb82e06c03da061.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 54,
+					"source" : "Captain Sonar 2/libs/boost/libs/graph",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/hana",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.hana-Debug-6d8a062bb0d02850aed6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 55,
+					"source" : "Captain Sonar 2/libs/boost/libs/hana"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/hash2",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.hash2-Debug-dd29d8cc97c6909b081d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 56,
+					"source" : "Captain Sonar 2/libs/boost/libs/hash2"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/headers",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.headers-Debug-043697359449c97afdad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 57,
+					"source" : "Captain Sonar 2/libs/boost/libs/headers"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/heap",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.heap-Debug-3d5cfff284fd0c9896f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 58,
+					"source" : "Captain Sonar 2/libs/boost/libs/heap"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/histogram",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.histogram-Debug-e02279fdd1c6941c01f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 59,
+					"source" : "Captain Sonar 2/libs/boost/libs/histogram"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/hof",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.hof-Debug-4ba29fa3ce1a037072ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 60,
+					"source" : "Captain Sonar 2/libs/boost/libs/hof"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/icl",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.icl-Debug-806f1cd5ecf4ed1e0003.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 61,
+					"source" : "Captain Sonar 2/libs/boost/libs/icl"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/integer",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.integer-Debug-69244ed925866939674b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 62,
+					"source" : "Captain Sonar 2/libs/boost/libs/integer"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/interprocess",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.interprocess-Debug-da96a5346097d5006803.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 63,
+					"source" : "Captain Sonar 2/libs/boost/libs/interprocess"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/intrusive",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.intrusive-Debug-90b15568ad0df4b00e65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 64,
+					"source" : "Captain Sonar 2/libs/boost/libs/intrusive"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/io",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.io-Debug-176cf97fe4615de49c4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 65,
+					"source" : "Captain Sonar 2/libs/boost/libs/io"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/iostreams",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.iostreams-Debug-d3f6a77cb2f0e32c58cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 66,
+					"source" : "Captain Sonar 2/libs/boost/libs/iostreams",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/iterator",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.iterator-Debug-bf54ee2abfd852923335.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 67,
+					"source" : "Captain Sonar 2/libs/boost/libs/iterator"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/json",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.json-Debug-4c709707bbf691430ed8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 68,
+					"source" : "Captain Sonar 2/libs/boost/libs/json",
+					"targetIndexes" : 
+					[
+						21,
+						22
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/lambda",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.lambda-Debug-f1fc65d39b9746cf1068.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 69,
+					"source" : "Captain Sonar 2/libs/boost/libs/lambda"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/lambda2",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.lambda2-Debug-35d0bfbb44fc815abd11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 70,
+					"source" : "Captain Sonar 2/libs/boost/libs/lambda2"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/leaf",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.leaf-Debug-091c0120ca8ce5ed6488.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 71,
+					"source" : "Captain Sonar 2/libs/boost/libs/leaf"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/lexical_cast",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.lexical_cast-Debug-f37e0f48043c521b5397.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 72,
+					"source" : "Captain Sonar 2/libs/boost/libs/lexical_cast"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/local_function",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.local_function-Debug-ff9e9eac21e96bda4493.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 73,
+					"source" : "Captain Sonar 2/libs/boost/libs/local_function"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/locale",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.locale-Debug-465aca10e8a382b952d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 74,
+					"source" : "Captain Sonar 2/libs/boost/libs/locale",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/lockfree",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.lockfree-Debug-ad3eb3421c71aff4274f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 75,
+					"source" : "Captain Sonar 2/libs/boost/libs/lockfree"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/log",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.log-Debug-896c178533b665aa26e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 76,
+					"source" : "Captain Sonar 2/libs/boost/libs/log",
+					"targetIndexes" : 
+					[
+						24,
+						25
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/logic",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.logic-Debug-f1e9dd55c78dce74282f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 77,
+					"source" : "Captain Sonar 2/libs/boost/libs/logic"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/math",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.math-Debug-b320797e928c0d605999.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 78,
+					"source" : "Captain Sonar 2/libs/boost/libs/math",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/metaparse",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.metaparse-Debug-d716560a24a0f00cf939.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 79,
+					"source" : "Captain Sonar 2/libs/boost/libs/metaparse"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/move",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.move-Debug-251f2d767768f90c043a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 80,
+					"source" : "Captain Sonar 2/libs/boost/libs/move"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/mp11",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.mp11-Debug-2aa31579fc6b74e344cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 81,
+					"source" : "Captain Sonar 2/libs/boost/libs/mp11"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/mpl",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.mpl-Debug-8cce0a4ef78e1da61854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 82,
+					"source" : "Captain Sonar 2/libs/boost/libs/mpl"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/mqtt5",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.mqtt5-Debug-a760495b4b6294728036.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 83,
+					"source" : "Captain Sonar 2/libs/boost/libs/mqtt5"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/msm",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.msm-Debug-7aeeba5d93b246867dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 84,
+					"source" : "Captain Sonar 2/libs/boost/libs/msm"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/multi_array",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.multi_array-Debug-89db58a644c2743a9bd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 85,
+					"source" : "Captain Sonar 2/libs/boost/libs/multi_array"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/multi_index",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.multi_index-Debug-d10396bdbe1907d21f69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 86,
+					"source" : "Captain Sonar 2/libs/boost/libs/multi_index"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/multiprecision",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.multiprecision-Debug-b6d9de42e9db0777a306.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 87,
+					"source" : "Captain Sonar 2/libs/boost/libs/multiprecision"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/mysql",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.mysql-Debug-0105b5ad45c3dfa3267f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 88,
+					"source" : "Captain Sonar 2/libs/boost/libs/mysql"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/nowide",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.nowide-Debug-a81ba12b510431e6f07f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 89,
+					"source" : "Captain Sonar 2/libs/boost/libs/nowide",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/numeric/conversion",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.numeric.conversion-Debug-cef98a8a25d4031335a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 90,
+					"source" : "Captain Sonar 2/libs/boost/libs/numeric/conversion"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/numeric/interval",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.numeric.interval-Debug-e5555805076c13afa90d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 91,
+					"source" : "Captain Sonar 2/libs/boost/libs/numeric/interval"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/numeric/odeint",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.numeric.odeint-Debug-0bad2187e06812da6b71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 92,
+					"source" : "Captain Sonar 2/libs/boost/libs/numeric/odeint"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/numeric/ublas",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.numeric.ublas-Debug-5c59f433029dc072668d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 93,
+					"source" : "Captain Sonar 2/libs/boost/libs/numeric/ublas"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/optional",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.optional-Debug-ca37474049bc4b401396.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 94,
+					"source" : "Captain Sonar 2/libs/boost/libs/optional",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/outcome",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.outcome-Debug-c765e1c5793770fa21ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 95,
+					"source" : "Captain Sonar 2/libs/boost/libs/outcome"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/parameter",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.parameter-Debug-d23c607b32c0def6c6a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 96,
+					"source" : "Captain Sonar 2/libs/boost/libs/parameter"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/parser",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.parser-Debug-377f744a5b4bcd379538.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 97,
+					"source" : "Captain Sonar 2/libs/boost/libs/parser"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/pfr",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.pfr-Debug-f9093387e303b3100b18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 98,
+					"source" : "Captain Sonar 2/libs/boost/libs/pfr"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/phoenix",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.phoenix-Debug-9580f0e87d7260daaed1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 99,
+					"source" : "Captain Sonar 2/libs/boost/libs/phoenix"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/poly_collection",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.poly_collection-Debug-2e9bdc88d273c4e9cb79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 100,
+					"source" : "Captain Sonar 2/libs/boost/libs/poly_collection"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/polygon",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.polygon-Debug-73fa040eea85c1fb2868.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 101,
+					"source" : "Captain Sonar 2/libs/boost/libs/polygon"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/pool",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.pool-Debug-6ee8787da632da1ffa40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 102,
+					"source" : "Captain Sonar 2/libs/boost/libs/pool"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/predef",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.predef-Debug-966c5b4d3fa00fa50c5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 103,
+					"source" : "Captain Sonar 2/libs/boost/libs/predef"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/preprocessor",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.preprocessor-Debug-ebf99d9015f28ed4bfa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 104,
+					"source" : "Captain Sonar 2/libs/boost/libs/preprocessor"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/process",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.process-Debug-4172d3683b3fa7e41a18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 105,
+					"source" : "Captain Sonar 2/libs/boost/libs/process",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/program_options",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.program_options-Debug-5eba5c7565410b104fdf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 106,
+					"source" : "Captain Sonar 2/libs/boost/libs/program_options",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/property_map",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.property_map-Debug-fddb352e851f1968134c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 107,
+					"source" : "Captain Sonar 2/libs/boost/libs/property_map"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/property_tree",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.property_tree-Debug-c2363dcd19e3dc3f617a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 108,
+					"source" : "Captain Sonar 2/libs/boost/libs/property_tree"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/proto",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.proto-Debug-38bf86d278a1276f1ced.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 109,
+					"source" : "Captain Sonar 2/libs/boost/libs/proto"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/ptr_container",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.ptr_container-Debug-c15bd4a848e49850364c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 110,
+					"source" : "Captain Sonar 2/libs/boost/libs/ptr_container"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/qvm",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.qvm-Debug-40353dc965af7132ca7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 111,
+					"source" : "Captain Sonar 2/libs/boost/libs/qvm"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/random",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.random-Debug-0dc93c0152cc4c336703.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 112,
+					"source" : "Captain Sonar 2/libs/boost/libs/random",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/range",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.range-Debug-3993fe00281fbd961813.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 113,
+					"source" : "Captain Sonar 2/libs/boost/libs/range"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/ratio",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.ratio-Debug-cfa8c7ce8b84a809541e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 114,
+					"source" : "Captain Sonar 2/libs/boost/libs/ratio"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/rational",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.rational-Debug-de3d627750aa1685d7a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 115,
+					"source" : "Captain Sonar 2/libs/boost/libs/rational"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/redis",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.redis-Debug-2f33b800a2e9a3dde633.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 116,
+					"source" : "Captain Sonar 2/libs/boost/libs/redis"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/regex",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.regex-Debug-39a03cf7720cbf0d091f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 117,
+					"source" : "Captain Sonar 2/libs/boost/libs/regex"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/safe_numerics",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.safe_numerics-Debug-c848c88a4602c4cd7f59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 118,
+					"source" : "Captain Sonar 2/libs/boost/libs/safe_numerics"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/scope",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.scope-Debug-18ece83c5628e1ed3ca1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 119,
+					"source" : "Captain Sonar 2/libs/boost/libs/scope"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/scope_exit",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.scope_exit-Debug-79a6381d02f8a97d47bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 120,
+					"source" : "Captain Sonar 2/libs/boost/libs/scope_exit"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/serialization",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.serialization-Debug-3023eae60b78ca7a0805.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 121,
+					"source" : "Captain Sonar 2/libs/boost/libs/serialization",
+					"targetIndexes" : 
+					[
+						33,
+						46
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/signals2",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.signals2-Debug-5797a3397b018514abe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 122,
+					"source" : "Captain Sonar 2/libs/boost/libs/signals2"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/smart_ptr",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.smart_ptr-Debug-a25995e9539d2746672c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 123,
+					"source" : "Captain Sonar 2/libs/boost/libs/smart_ptr"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/sort",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.sort-Debug-a5e975807b3f4a903039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 124,
+					"source" : "Captain Sonar 2/libs/boost/libs/sort"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/spirit",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.spirit-Debug-663c2611cc7d59b860d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 125,
+					"source" : "Captain Sonar 2/libs/boost/libs/spirit"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/stacktrace",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.stacktrace-Debug-330fa351c900a2fe0062.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 126,
+					"source" : "Captain Sonar 2/libs/boost/libs/stacktrace",
+					"targetIndexes" : 
+					[
+						34,
+						35,
+						36,
+						37,
+						38
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/statechart",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.statechart-Debug-c8809e0ca5f117b2a0f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 127,
+					"source" : "Captain Sonar 2/libs/boost/libs/statechart"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/static_assert",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.static_assert-Debug-36f7da042aa507ae528a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 128,
+					"source" : "Captain Sonar 2/libs/boost/libs/static_assert"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/static_string",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.static_string-Debug-ea54e7b3d9f65b3bae45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 129,
+					"source" : "Captain Sonar 2/libs/boost/libs/static_string"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/stl_interfaces",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.stl_interfaces-Debug-c5691ec583dff663d96e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 130,
+					"source" : "Captain Sonar 2/libs/boost/libs/stl_interfaces"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/system",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.system-Debug-e53cc38a683b612601e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 131,
+					"source" : "Captain Sonar 2/libs/boost/libs/system"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/test",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.test-Debug-673688c7c149f1ffd8cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 132,
+					"source" : "Captain Sonar 2/libs/boost/libs/test",
+					"targetIndexes" : 
+					[
+						29,
+						39,
+						43
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/thread",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.thread-Debug-d42c733ccf7705048a6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 133,
+					"source" : "Captain Sonar 2/libs/boost/libs/thread",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/throw_exception",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.throw_exception-Debug-441c43372d892172995b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 134,
+					"source" : "Captain Sonar 2/libs/boost/libs/throw_exception"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/timer",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.timer-Debug-538709c4af7dfbaac830.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 135,
+					"source" : "Captain Sonar 2/libs/boost/libs/timer",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/tokenizer",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.tokenizer-Debug-09e0b12b5411f11f5ef7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 136,
+					"source" : "Captain Sonar 2/libs/boost/libs/tokenizer"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/tti",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.tti-Debug-1503abfe304386e4b4f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 137,
+					"source" : "Captain Sonar 2/libs/boost/libs/tti"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/tuple",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.tuple-Debug-9c408e39fe0bc0366bd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 138,
+					"source" : "Captain Sonar 2/libs/boost/libs/tuple"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/type_erasure",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.type_erasure-Debug-a36cdee98d1bf2b132c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 139,
+					"source" : "Captain Sonar 2/libs/boost/libs/type_erasure",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/type_index",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.type_index-Debug-5c39977b2cbcc5339fdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 140,
+					"source" : "Captain Sonar 2/libs/boost/libs/type_index"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/type_traits",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.type_traits-Debug-d8f6abe00f6f57d2b3a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 141,
+					"source" : "Captain Sonar 2/libs/boost/libs/type_traits"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/typeof",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.typeof-Debug-966cc30fc03efb316c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 142,
+					"source" : "Captain Sonar 2/libs/boost/libs/typeof"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/units",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.units-Debug-fbd7302bc3ea384d3463.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 143,
+					"source" : "Captain Sonar 2/libs/boost/libs/units"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/unordered",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.unordered-Debug-fbbb84281eb761c37eed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 144,
+					"source" : "Captain Sonar 2/libs/boost/libs/unordered"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/url",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.url-Debug-bcccfdfbc15d2c447b2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 145,
+					"source" : "Captain Sonar 2/libs/boost/libs/url",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/utility",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.utility-Debug-1356138b4869f27714e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 146,
+					"source" : "Captain Sonar 2/libs/boost/libs/utility"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/uuid",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.uuid-Debug-4be2b2f5e826b4a2fb66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 147,
+					"source" : "Captain Sonar 2/libs/boost/libs/uuid"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/variant",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.variant-Debug-6f13c59cfd32a2ccb9d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 148,
+					"source" : "Captain Sonar 2/libs/boost/libs/variant"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/variant2",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.variant2-Debug-f4dad22ed9034689854e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 149,
+					"source" : "Captain Sonar 2/libs/boost/libs/variant2"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/vmd",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.vmd-Debug-56c2057ea1e51b595034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 150,
+					"source" : "Captain Sonar 2/libs/boost/libs/vmd"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/wave",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.wave-Debug-9fe94e47d9d45b1f37b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 151,
+					"source" : "Captain Sonar 2/libs/boost/libs/wave",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/winapi",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.winapi-Debug-b019f9431316212615e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 152,
+					"source" : "Captain Sonar 2/libs/boost/libs/winapi"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/xpressive",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.xpressive-Debug-3d85098882d55dc6d142.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 153,
+					"source" : "Captain Sonar 2/libs/boost/libs/xpressive"
+				},
+				{
+					"build" : "Captain Sonar 2/libs/boost/libs/yap",
+					"jsonFile" : "directory-Captain Sonar 2.libs.boost.libs.yap-Debug-07255c97ef5a66b16609.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 154,
+					"source" : "Captain Sonar 2/libs/boost/libs/yap"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Captain Sonar 2",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6,
+						48,
+						49
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Boost",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "boost_accumulators",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "boost_algorithm",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "boost_align",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "boost_any",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "boost_array",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "boost_asio",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "boost_assert",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "boost_assign",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "boost_atomic",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "boost_beast",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "boost_bimap",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "boost_bind",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "boost_callable_traits",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "boost_charconv",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "boost_chrono",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "boost_circular_buffer",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "boost_cobalt",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "boost_compat",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "boost_compute",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "boost_concept_check",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "boost_config",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "boost_container",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "boost_container_hash",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "boost_context",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "boost_contract",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "boost_conversion",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "boost_convert",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "boost_core",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "boost_coroutine",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "boost_coroutine2",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "boost_crc",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "boost_date_time",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "boost_describe",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "boost_detail",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "boost_dll",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "boost_dynamic_bitset",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "boost_endian",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "boost_exception",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "boost_fiber",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						45
+					],
+					"name" : "BoostFilesystem",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46
+					],
+					"name" : "boost_flyweight",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						47
+					],
+					"name" : "boost_foreach",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						48
+					],
+					"name" : "boost_format",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						49
+					],
+					"name" : "boost_function",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50
+					],
+					"name" : "boost_function_types",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						51
+					],
+					"name" : "boost_functional",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						52
+					],
+					"name" : "boost_fusion",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						53
+					],
+					"name" : "boost_geometry",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						54
+					],
+					"name" : "boost_gil",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						55
+					],
+					"name" : "boost_graph",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						56
+					],
+					"name" : "boost_hana",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						57
+					],
+					"name" : "boost_hash2",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						58
+					],
+					"name" : "boost_headers",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						59
+					],
+					"name" : "boost_heap",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						60
+					],
+					"name" : "boost_histogram",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						61
+					],
+					"name" : "boost_hof",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						62
+					],
+					"name" : "boost_icl",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						63
+					],
+					"name" : "boost_integer",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						64
+					],
+					"name" : "boost_interprocess",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						65
+					],
+					"name" : "boost_intrusive",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						66
+					],
+					"name" : "boost_io",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						67
+					],
+					"name" : "boost_iostreams",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						68
+					],
+					"name" : "boost_iterator",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						69
+					],
+					"name" : "boost_json",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						21,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						70
+					],
+					"name" : "boost_lambda",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						71
+					],
+					"name" : "boost_lambda2",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						72
+					],
+					"name" : "boost_leaf",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						73
+					],
+					"name" : "boost_lexical_cast",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						74
+					],
+					"name" : "boost_local_function",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						75
+					],
+					"name" : "boost_locale",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						76
+					],
+					"name" : "boost_lockfree",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						77
+					],
+					"name" : "BoostLog",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						24,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						78
+					],
+					"name" : "boost_logic",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						79
+					],
+					"name" : "boost_math",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						80
+					],
+					"name" : "boost_metaparse",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						81
+					],
+					"name" : "boost_move",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						82
+					],
+					"name" : "boost_mp11",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						83
+					],
+					"name" : "boost_mpl",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						84
+					],
+					"name" : "boost_mqtt5",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						85
+					],
+					"name" : "boost_msm",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						86
+					],
+					"name" : "boost_multi_array",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						87
+					],
+					"name" : "boost_multi_index",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						88
+					],
+					"name" : "boost_multiprecision",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						89
+					],
+					"name" : "boost_mysql",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						90
+					],
+					"name" : "boost_nowide",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						91
+					],
+					"name" : "boost_numeric_conversion",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						92
+					],
+					"name" : "boost_numeric_interval",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						93
+					],
+					"name" : "boost_numeric_odeint",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						94
+					],
+					"name" : "boost_numeric_ublas",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						95
+					],
+					"name" : "boost_optional",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						96
+					],
+					"name" : "boost_outcome",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						97
+					],
+					"name" : "boost_parameter",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						98
+					],
+					"name" : "boost_parser",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						99
+					],
+					"name" : "boost_pfr",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						100
+					],
+					"name" : "boost_phoenix",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						101
+					],
+					"name" : "boost_poly_collection",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						102
+					],
+					"name" : "boost_polygon",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						103
+					],
+					"name" : "boost_pool",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						104
+					],
+					"name" : "boost_predef",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						105
+					],
+					"name" : "boost_preprocessor",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						106
+					],
+					"name" : "boost_process",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						107
+					],
+					"name" : "boost_program_options",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						108
+					],
+					"name" : "boost_property_map",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						109
+					],
+					"name" : "boost_property_tree",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						110
+					],
+					"name" : "boost_proto",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						111
+					],
+					"name" : "boost_ptr_container",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						112
+					],
+					"name" : "boost_qvm",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						113
+					],
+					"name" : "boost_random",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						114
+					],
+					"name" : "boost_range",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						115
+					],
+					"name" : "boost_ratio",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						116
+					],
+					"name" : "boost_rational",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						117
+					],
+					"name" : "boost_redis",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						118
+					],
+					"name" : "boost_regex",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						119
+					],
+					"name" : "boost_safe_numerics",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						120
+					],
+					"name" : "boost_scope",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						121
+					],
+					"name" : "boost_scope_exit",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						122
+					],
+					"name" : "boost_serialization",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						33,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						123
+					],
+					"name" : "boost_signals2",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						124
+					],
+					"name" : "boost_smart_ptr",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						125
+					],
+					"name" : "boost_sort",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						126
+					],
+					"name" : "boost_spirit",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						127
+					],
+					"name" : "boost_stacktrace",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						34,
+						35,
+						36,
+						37,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						128
+					],
+					"name" : "boost_statechart",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						129
+					],
+					"name" : "boost_static_assert",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						130
+					],
+					"name" : "boost_static_string",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						131
+					],
+					"name" : "boost_stl_interfaces",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						132
+					],
+					"name" : "boost_system",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						133
+					],
+					"name" : "boost_test",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						29,
+						39,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						134
+					],
+					"name" : "boost_thread",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						135
+					],
+					"name" : "boost_throw_exception",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						136
+					],
+					"name" : "boost_timer",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						137
+					],
+					"name" : "boost_tokenizer",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						138
+					],
+					"name" : "boost_tti",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						139
+					],
+					"name" : "boost_tuple",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						140
+					],
+					"name" : "boost_type_erasure",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						141
+					],
+					"name" : "boost_type_index",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						142
+					],
+					"name" : "boost_type_traits",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						143
+					],
+					"name" : "boost_typeof",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						144
+					],
+					"name" : "boost_units",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						145
+					],
+					"name" : "boost_unordered",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						146
+					],
+					"name" : "boost_url",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						147
+					],
+					"name" : "boost_utility",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						148
+					],
+					"name" : "boost_uuid",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						149
+					],
+					"name" : "boost_variant",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						150
+					],
+					"name" : "boost_variant2",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						151
+					],
+					"name" : "boost_vmd",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						152
+					],
+					"name" : "boost_wave",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						153
+					],
+					"name" : "boost_winapi",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						154
+					],
+					"name" : "boost_xpressive",
+					"parentIndex" : 4
+				},
+				{
+					"directoryIndexes" : 
+					[
+						155
+					],
+					"name" : "boost_yap",
+					"parentIndex" : 4
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CMakeTarget::@e7bcfad256d9421b98b4",
+					"jsonFile" : "target-CMakeTarget-Debug-2e327b95bc6c4974fc84.json",
+					"name" : "CMakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ImGui::@e7bcfad256d9421b98b4",
+					"jsonFile" : "target-ImGui-Debug-402ff65dd55d5091e9aa.json",
+					"name" : "ImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-SDL2-Debug-fc04f4ab0a4fb415ab81.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2-static::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-SDL2-static-Debug-e4812744709fae415a63.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_test::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-SDL2_test-Debug-6d0fc0d159b12324538b.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_ttf::@cb8b8a9f88cfb8ad70f0",
+					"jsonFile" : "target-SDL2_ttf-Debug-f962f5bbfbeff056493f.json",
+					"name" : "SDL2_ttf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2main::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-SDL2main-Debug-edda4e3e988fc5d13848.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "boost_atomic::@fedc742ae72e28649212",
+					"jsonFile" : "target-boost_atomic-Debug-28e3705d6545aa4862e6.json",
+					"name" : "boost_atomic",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "boost_charconv::@8a41fdd7da43c2be3435",
+					"jsonFile" : "target-boost_charconv-Debug-37b58a6dc208cf9c728f.json",
+					"name" : "boost_charconv",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "boost_chrono::@433e6a30bd8af81b6aa2",
+					"jsonFile" : "target-boost_chrono-Debug-92ea4d899c8c18f67a78.json",
+					"name" : "boost_chrono",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "boost_cobalt::@8814641a45ea232deb12",
+					"jsonFile" : "target-boost_cobalt-Debug-ccebf1dd7b79277a4099.json",
+					"name" : "boost_cobalt",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "boost_container::@0e60946c95c28821dd1b",
+					"jsonFile" : "target-boost_container-Debug-88a7577c36689244adea.json",
+					"name" : "boost_container",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "boost_context::@ee3aa0d5b75f8defb76d",
+					"jsonFile" : "target-boost_context-Debug-f4cfa408946e9fd37375.json",
+					"name" : "boost_context",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "boost_contract::@bd1a35040c7881b9bb75",
+					"jsonFile" : "target-boost_contract-Debug-78527c3185bf149a6f29.json",
+					"name" : "boost_contract",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "boost_coroutine::@59f5e987ba38b4ff3780",
+					"jsonFile" : "target-boost_coroutine-Debug-325edff77c1b5a9bfa5d.json",
+					"name" : "boost_coroutine",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "boost_date_time::@047ddae865c4444b93d1",
+					"jsonFile" : "target-boost_date_time-Debug-50fd7dc954bc2a38d446.json",
+					"name" : "boost_date_time",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "boost_fiber::@c0689d4da7e29dff2bca",
+					"jsonFile" : "target-boost_fiber-Debug-9cb580781a9bf3eadabd.json",
+					"name" : "boost_fiber",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "boost_fiber_numa::@c0689d4da7e29dff2bca",
+					"jsonFile" : "target-boost_fiber_numa-Debug-d9c0f734d27734836f77.json",
+					"name" : "boost_fiber_numa",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "boost_filesystem::@2f7d5bcf45ed469c982c",
+					"jsonFile" : "target-boost_filesystem-Debug-4633793b7689afd033d5.json",
+					"name" : "boost_filesystem",
+					"projectIndex" : 44
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "boost_graph::@696b94cf12cfce57a4b3",
+					"jsonFile" : "target-boost_graph-Debug-89f1a4b99e63d103c0ad.json",
+					"name" : "boost_graph",
+					"projectIndex" : 54
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "boost_iostreams::@3dfa398a62cdceccb158",
+					"jsonFile" : "target-boost_iostreams-Debug-e07f1d452af26fc17419.json",
+					"name" : "boost_iostreams",
+					"projectIndex" : 66
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "boost_json::@b9086a401fc98bab80a0",
+					"jsonFile" : "target-boost_json-Debug-6b1a2a95ec1e1a6bf468.json",
+					"name" : "boost_json",
+					"projectIndex" : 68
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "boost_json_regenerate_printers::@b9086a401fc98bab80a0",
+					"jsonFile" : "target-boost_json_regenerate_printers-Debug-48aad36cca4d2175cc50.json",
+					"name" : "boost_json_regenerate_printers",
+					"projectIndex" : 68
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "boost_locale::@83fdb3c83d97571334e3",
+					"jsonFile" : "target-boost_locale-Debug-aed49e8a4edce2ad8352.json",
+					"name" : "boost_locale",
+					"projectIndex" : 74
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "boost_log::@953c0dacc9bf6bf88d3f",
+					"jsonFile" : "target-boost_log-Debug-c70089f5ac1095141892.json",
+					"name" : "boost_log",
+					"projectIndex" : 76
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "boost_log_setup::@953c0dacc9bf6bf88d3f",
+					"jsonFile" : "target-boost_log_setup-Debug-4db6d34f7ea9d7e0d22c.json",
+					"name" : "boost_log_setup",
+					"projectIndex" : 76
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "boost_math::@4e2dca1ecebb8a15d92a",
+					"jsonFile" : "target-boost_math-Debug-909e4fd0e641f1023f89.json",
+					"name" : "boost_math",
+					"projectIndex" : 78
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "boost_nowide::@ffbd021074548ac3e396",
+					"jsonFile" : "target-boost_nowide-Debug-2fe0d6dcf922a476e53c.json",
+					"name" : "boost_nowide",
+					"projectIndex" : 89
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "boost_optional::@38dc12bc04a20e0ffbd2",
+					"jsonFile" : "target-boost_optional-Debug-ff38ffc67c16a4d6766b.json",
+					"name" : "boost_optional",
+					"projectIndex" : 94
+				},
+				{
+					"directoryIndex" : 133,
+					"id" : "boost_prg_exec_monitor::@bb45cc6593e122231640",
+					"jsonFile" : "target-boost_prg_exec_monitor-Debug-f9c931651f2906bcccd9.json",
+					"name" : "boost_prg_exec_monitor",
+					"projectIndex" : 132
+				},
+				{
+					"directoryIndex" : 106,
+					"id" : "boost_process::@9d06a5a18bcf12d84dda",
+					"jsonFile" : "target-boost_process-Debug-899374c3acc5b26f53ba.json",
+					"name" : "boost_process",
+					"projectIndex" : 105
+				},
+				{
+					"directoryIndex" : 107,
+					"id" : "boost_program_options::@84824b2939f9b0f208a8",
+					"jsonFile" : "target-boost_program_options-Debug-2b01fc623ab0faaaf38b.json",
+					"name" : "boost_program_options",
+					"projectIndex" : 106
+				},
+				{
+					"directoryIndex" : 113,
+					"id" : "boost_random::@e40cb207f10e6adaf437",
+					"jsonFile" : "target-boost_random-Debug-dac31c9cdeac66d655ae.json",
+					"name" : "boost_random",
+					"projectIndex" : 112
+				},
+				{
+					"directoryIndex" : 122,
+					"id" : "boost_serialization::@bd223cd01fcb0c5f1584",
+					"jsonFile" : "target-boost_serialization-Debug-20e9b05707c49fed4067.json",
+					"name" : "boost_serialization",
+					"projectIndex" : 121
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "boost_stacktrace_basic::@d206d7e312b286019465",
+					"jsonFile" : "target-boost_stacktrace_basic-Debug-8468dec8678266674547.json",
+					"name" : "boost_stacktrace_basic",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "boost_stacktrace_from_exception::@d206d7e312b286019465",
+					"jsonFile" : "target-boost_stacktrace_from_exception-Debug-7c0462999581c00ed835.json",
+					"name" : "boost_stacktrace_from_exception",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "boost_stacktrace_noop::@d206d7e312b286019465",
+					"jsonFile" : "target-boost_stacktrace_noop-Debug-1fbc5be908afd4f910d2.json",
+					"name" : "boost_stacktrace_noop",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "boost_stacktrace_windbg::@d206d7e312b286019465",
+					"jsonFile" : "target-boost_stacktrace_windbg-Debug-0edfe9bd5bda4f31082b.json",
+					"name" : "boost_stacktrace_windbg",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "boost_stacktrace_windbg_cached::@d206d7e312b286019465",
+					"jsonFile" : "target-boost_stacktrace_windbg_cached-Debug-dba1b48f9c3fb8a01018.json",
+					"name" : "boost_stacktrace_windbg_cached",
+					"projectIndex" : 126
+				},
+				{
+					"directoryIndex" : 133,
+					"id" : "boost_test_exec_monitor::@bb45cc6593e122231640",
+					"jsonFile" : "target-boost_test_exec_monitor-Debug-c3da3f2a9fa6fba2ad66.json",
+					"name" : "boost_test_exec_monitor",
+					"projectIndex" : 132
+				},
+				{
+					"directoryIndex" : 134,
+					"id" : "boost_thread::@4db62984f568c6391c82",
+					"jsonFile" : "target-boost_thread-Debug-bce375d65da7bba40ddb.json",
+					"name" : "boost_thread",
+					"projectIndex" : 133
+				},
+				{
+					"directoryIndex" : 136,
+					"id" : "boost_timer::@32edd9b08eef48f82c09",
+					"jsonFile" : "target-boost_timer-Debug-41dc08205f9e54f329a6.json",
+					"name" : "boost_timer",
+					"projectIndex" : 135
+				},
+				{
+					"directoryIndex" : 140,
+					"id" : "boost_type_erasure::@a402fd4667194df7a256",
+					"jsonFile" : "target-boost_type_erasure-Debug-0f9d9b37d8822c55232c.json",
+					"name" : "boost_type_erasure",
+					"projectIndex" : 139
+				},
+				{
+					"directoryIndex" : 133,
+					"id" : "boost_unit_test_framework::@bb45cc6593e122231640",
+					"jsonFile" : "target-boost_unit_test_framework-Debug-c9a908c8eaecac31ff44.json",
+					"name" : "boost_unit_test_framework",
+					"projectIndex" : 132
+				},
+				{
+					"directoryIndex" : 146,
+					"id" : "boost_url::@593cd56ccd446d11302d",
+					"jsonFile" : "target-boost_url-Debug-d32841abe526cd8ba3e9.json",
+					"name" : "boost_url",
+					"projectIndex" : 145
+				},
+				{
+					"directoryIndex" : 152,
+					"id" : "boost_wave::@95200d3e0cb436835635",
+					"jsonFile" : "target-boost_wave-Debug-eab6f4172bb972fbe67d.json",
+					"name" : "boost_wave",
+					"projectIndex" : 151
+				},
+				{
+					"directoryIndex" : 122,
+					"id" : "boost_wserialization::@bd223cd01fcb0c5f1584",
+					"jsonFile" : "target-boost_wserialization-Debug-ee810bdb1c82a22147e7.json",
+					"name" : "boost_wserialization",
+					"projectIndex" : 121
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@276bcc19151ccc5a3df3",
+					"jsonFile" : "target-freetype-Debug-e0d7b80d041f3a8bf29e.json",
+					"name" : "freetype",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sdl_headers_copy::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-sdl_headers_copy-Debug-1cc8337ae336d56e85a7.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@9d1f2ab9e36d6d3d48b3",
+					"jsonFile" : "target-uninstall-Debug-8726de2f3749ceee9d89.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Julian/source/repos/Captain Sonar 2/out/build/x64-Debug",
+		"source" : "C:/Users/Julian/source/repos/Captain Sonar 2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
