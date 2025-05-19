@@ -19,7 +19,7 @@ struct UsableItem {
 	}
 };
 
-class Player : public GameObject 
+struct Player : public GameObject 
 {
 
 public:

@@ -24,6 +24,7 @@ int IMAGE_HEIGHT = 25;
 Level menuLevel("MainMenu", 0, 100, 85);
 Level gameLevel("Game Scene", 50, 150, 100);
 
+std::string currentText = "It is Player 1's Turn!";
 
 //The window we'll be rendering to
 SDL_Window* gWindow = NULL;
@@ -35,7 +36,10 @@ SDL_Surface* gOut = NULL;
 
 SDL_Renderer* renderer = NULL;
 
-SDL_Texture* garFeldiTexture = NULL;
+SDL_Texture* sonarIconTexture = NULL;
+SDL_Texture* torpedoIconTexture = NULL;
+SDL_Texture* droneIconTexture = NULL;
+SDL_Texture* mineIconTexture = NULL;
 SDL_Color currentColor;
 
 TTF_Font* gFont = NULL;
@@ -54,8 +58,6 @@ enum KeyPressSurfaces
 
 void imguiInit()
 {
-
-
 	IMGUI_CHECKVERSION();
 	ImGui::CreateContext();
 	ImGuiIO& io = ImGui::GetIO(); (void)io;
@@ -76,9 +78,9 @@ bool init()
 {
 	//Initialization flag
 	bool success = true;
-
+	cout << "Begging, Begging you to work buddy." << endl;
 	//Initialize SDL
-	printf("hi");
+	
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
@@ -117,23 +119,33 @@ bool loadMedia()
 	bool success = true;
 
 	//Load splash image
-	gOut = SDL_LoadBMP("images/TheFinalPowerPose.bmp");
+	gOut = SDL_LoadBMP("images/SonarIcon.bmp");
 	IMAGE_WIDTH = gOut->w / 2;
 	IMAGE_HEIGHT = gOut->h / 2;
+	sonarIconTexture = SDL_CreateTextureFromSurface(renderer, gOut);
+	SDL_FreeSurface(gOut);
+
+	gOut = SDL_LoadBMP("images/TorpedoIcon.bmp");
+	IMAGE_WIDTH = gOut->w / 2;
+	IMAGE_HEIGHT = gOut->h / 2;
+	torpedoIconTexture = SDL_CreateTextureFromSurface(renderer, gOut);
+	SDL_FreeSurface(gOut);
+
+	gOut = SDL_LoadBMP("images/DroneIcon.bmp");
+	IMAGE_WIDTH = gOut->w / 2;
+	IMAGE_HEIGHT = gOut->h / 2;
+	droneIconTexture = SDL_CreateTextureFromSurface(renderer, gOut);
+	SDL_FreeSurface(gOut);
+
+	gOut = SDL_LoadBMP("images/MineIcon.bmp");
+	IMAGE_WIDTH = gOut->w / 2;
+	IMAGE_HEIGHT = gOut->h / 2;
+	mineIconTexture = SDL_CreateTextureFromSurface(renderer, gOut);
+	SDL_FreeSurface(gOut); 
 
 	gFont = TTF_OpenFont("fonts/WhiteRabbitTTF.ttf", 28);
 
 	
-
-	if (gOut == NULL)
-	{
-		printf("Unable to load image %s! SDL Error: %s\n", "images/TheFinalPowerPose.bmp", SDL_GetError());
-		success = false;
-	}
-
-	garFeldiTexture = SDL_CreateTextureFromSurface(renderer, gOut);
-	SDL_FreeSurface(gOut);
-
 
 	return success;
 }
@@ -279,14 +291,76 @@ void UseSonarItem()
 {
 
 }
-#undef main
+
+bool takingDamage = false;
+bool endingGame = false;
+
+void DamagePlayer(Player &player, int damage)
+{
+	player.currentHealth -= damage;
+	takingDamage = true;
+	if (player.currentHealth == 0) endingGame = true;
+}
+
+void TorpedoExplosion(int slotX, int slotY, Grid& gameGrid, Player& p1, Player& p2, Player& currentPlayer)
+{
+	int minX = slotX - 1;
+	int minY = slotY - 1;
+	int maxX = slotX + 1;
+	int maxY = slotY + 1;
+
+	bool hitSomething = false;
+
+	for (int i = minX; i <= maxX; i++)
+	{
+		for (int j = minY; j <= maxY; j++)
+		{
+			if (i >= gameGrid.rowSize || i < 0)
+			{
+				continue;
+			}
+			if (j >= gameGrid.columnSize || j < 0)
+			{
+				continue;
+			}
+
+			if (gameGrid.grid.at(i).at(j).occupiedByPlayer)
+			{
+				if (p1.slotPosition.x == i && p1.slotPosition.y == j)
+				{
+					cout << "PLAYER HIT!" << endl;
+					DamagePlayer(p1, 1);
+					hitSomething = true;
+				}
+				if (p2.slotPosition.x == i && p2.slotPosition.y == j)
+				{
+					cout << "PLAYER HIT!" << endl;
+					DamagePlayer(p2, 1);
+					hitSomething = true;
+				}
+				if (currentPlayer.slotPosition.x == i && currentPlayer.slotPosition.y == j)
+				{
+
+				}
+			}
+		}
+	}
+
+	if (!hitSomething) cout << "Nothing was Hit!" << endl;
+}
+
 int main(int argc, char* args[])
 {
 	// variables
 
+	Player noPlayer("NoPlayer", 0, 0, 0, 0);
+
 	bool quit = false;
-	int gamestate = 0;
+
 	Rectangle testRect(100, 100, 100, 100, {0, 95, 125});
+
+	int textDisplayTime = 1;
+
 	if (!init())
 	{
 		printf("Failed to initialize!\n");
@@ -299,7 +373,7 @@ int main(int argc, char* args[])
 	{
 		printf("Failed to load media!\n");
 		return 0;
-	};
+	}
 
 	srand(time(0));
 
@@ -345,6 +419,12 @@ int main(int argc, char* args[])
 
 	// handle events
 
+	int xInput = 1;
+
+	int yInput = 1;
+
+	int sectorInput = 1;
+
 	SDL_Event e;
 
 	SetScreenColor(baseColor);
@@ -359,277 +439,326 @@ int main(int argc, char* args[])
 
 	bool launchingTorpedo = false;
 
-	std::string currentText = "It is " + player1.name + "'s Turn!";
-
 	while (!quit)
 	{
-		if (gamestate == 0) {
-			while (SDL_PollEvent(&e) != 0)
-			{
+		//Handle events on queue
+		while (SDL_PollEvent(&e) != 0)
+		{
+			//User requests quit
+			ImGui_ImplSDL2_ProcessEvent(&e);
 
+			if (e.type == SDL_MOUSEMOTION)
+			{
+			/*	if (inButtonBounds(e.motion.x, e.motion.y))
+				{
+					currentButtonColor = hoverButtonColor;
+				}
+				else currentButtonColor = baseButtonColor; */
 			}
 
-		}
-		else if (gameState == 1){
-			//Handle events on queue
-			while (SDL_PollEvent(&e) != 0)
+			if (e.type == SDL_MOUSEBUTTONDOWN)
 			{
-				//User requests quit
-				ImGui_ImplSDL2_ProcessEvent(&e);
+				//if (!inButtonBounds(e.motion.x, e.motion.y)) break;
 
-				if (e.type == SDL_MOUSEMOTION)
+				if (SameColor(currentColor, baseColor))
 				{
-					/*	if (inButtonBounds(e.motion.x, e.motion.y))
-						{
-							currentButtonColor = hoverButtonColor;
-						}
-						else currentButtonColor = baseButtonColor; */
+					SetScreenColor(altColor);
+				//	loadFromRenderedText("Welcome to a New Scene!!!", textCOLOR);
+				}
+				else if (SameColor(currentColor, altColor))
+				{
+					SetScreenColor(baseColor);
 				}
 
-				if (e.type == SDL_MOUSEBUTTONDOWN)
+				break;
+			}
+
+			if (e.type == SDL_QUIT)
+			{
+				quit = true;
+			}
+			else if (e.type == SDL_KEYDOWN)
+			{
+
+				bool usedTurn = false;
+
+				switch (e.key.keysym.sym)
 				{
-					//if (!inButtonBounds(e.motion.x, e.motion.y)) break;
 
-					if (SameColor(currentColor, baseColor))
+				case SDLK_RIGHT:
+					if (isViableSpot(currentPlayer.slotPosition.x + 1, currentPlayer.slotPosition.y, gameGrid))
 					{
-						SetScreenColor(altColor);
-						//	loadFromRenderedText("Welcome to a New Scene!!!", textCOLOR);
+						previousPosition = currentPlayer.slotPosition;
+						currentPlayer.slotPosition.x += 1;
+						usedTurn = true;
 					}
-					else if (SameColor(currentColor, altColor))
+					break;
+				case SDLK_LEFT:
+					if (isViableSpot(currentPlayer.slotPosition.x - 1, currentPlayer.slotPosition.y, gameGrid))
 					{
-						SetScreenColor(baseColor);
+						previousPosition = currentPlayer.slotPosition;
+						currentPlayer.slotPosition.x -= 1;
+						usedTurn = true;
 					}
-
+					break;
+				case SDLK_UP:
+					if (isViableSpot(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y-1, gameGrid))
+					{
+						previousPosition = currentPlayer.slotPosition;
+						currentPlayer.slotPosition.y -= 1;
+						usedTurn = true;
+					}
+					break;
+				case SDLK_DOWN:
+					if (isViableSpot(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y+1, gameGrid))
+					{
+						previousPosition = currentPlayer.slotPosition;
+						currentPlayer.slotPosition.y += 1;
+						usedTurn = true;
+					}
 					break;
 				}
 
-				if (e.type == SDL_QUIT)
+				keepInBounds(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y, gameGrid);
+
+				if (usedTurn)
 				{
-					quit = true;
-				}
-				else if (e.type == SDL_KEYDOWN)
-				{
-
-					bool usedTurn = false;
-
-					switch (e.key.keysym.sym)
+					if (currentPlayer.mineItem.isCharging)
 					{
-
-					case SDLK_RIGHT:
-						if (isViableSpot(currentPlayer.slotPosition.x + 1, currentPlayer.slotPosition.y, gameGrid))
-						{
-							previousPosition = currentPlayer.slotPosition;
-							currentPlayer.slotPosition.x += 1;
-							usedTurn = true;
-						}
-						break;
-					case SDLK_LEFT:
-						if (isViableSpot(currentPlayer.slotPosition.x - 1, currentPlayer.slotPosition.y, gameGrid))
-						{
-							previousPosition = currentPlayer.slotPosition;
-							currentPlayer.slotPosition.x -= 1;
-							usedTurn = true;
-						}
-						break;
-					case SDLK_UP:
-						if (isViableSpot(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y - 1, gameGrid))
-						{
-							previousPosition = currentPlayer.slotPosition;
-							currentPlayer.slotPosition.y -= 1;
-							usedTurn = true;
-						}
-						break;
-					case SDLK_DOWN:
-						if (isViableSpot(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y + 1, gameGrid))
-						{
-							previousPosition = currentPlayer.slotPosition;
-							currentPlayer.slotPosition.y += 1;
-							usedTurn = true;
-						}
-						break;
+						currentPlayer.mineItem.isCharging = false;
+						currentPlayer.mineItem.currentCharge++;
+					}
+					if (currentPlayer.sonarItem.isCharging)
+					{
+						currentPlayer.sonarItem.isCharging = false;
+						currentPlayer.sonarItem.currentCharge++;
 					}
 
-					keepInBounds(currentPlayer.slotPosition.x, currentPlayer.slotPosition.y, gameGrid);
+					gameGrid.grid.at(previousPosition.x).at(previousPosition.y).occupiedByPlayer = false;
+					gameGrid.grid.at(previousPosition.x).at(previousPosition.y).playerOwner = 0;
 
-					if (usedTurn)
+					gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByPlayer = true;
+					gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).playerOwner = currentPlayer.playerNumber;
+
+					if (gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine)
 					{
-						if (currentPlayer.mineItem.isCharging)
-						{
-							currentPlayer.mineItem.isCharging = false;
-							currentPlayer.mineItem.currentCharge++;
-						}
-						if (currentPlayer.sonarItem.isCharging)
-						{
-							currentPlayer.sonarItem.isCharging = false;
-							currentPlayer.sonarItem.currentCharge++;
-						}
-						gameGrid.grid.at(previousPosition.x).at(previousPosition.y).occupiedByPlayer = false;
-						gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByPlayer = true;
-					}
-
-
-					if (player1Turn && usedTurn)
-					{
-						player1 = currentPlayer;
-						currentPlayer = player2;
-						player1Turn = false;
-
-						currentText = "It is " + currentPlayer.name + "'s Turn!";
-					}
-					else if (usedTurn)
-					{
-						player2 = currentPlayer;
-						currentPlayer = player1;
-						player1Turn = true;
-
-						currentText = "It is " + currentPlayer.name + "'s Turn!";
-					}
-
-					Vector2 p1SlotPos = gameGrid.GridSlotPosition(player1.slotPosition.x, player1.slotPosition.y);
-					Vector2 p2SlotPos = gameGrid.GridSlotPosition(player2.slotPosition.x, player2.slotPosition.y);
-
-					player1.SetPosition(p1SlotPos.x, p1SlotPos.y);
-					player2.SetPosition(p2SlotPos.x, p2SlotPos.y);
-				}
-				else if (e.type == SDL_KEYUP)
-				{
-					switch (e.key.keysym.sym)
-					{
-					case SDLK_RIGHT:
-						break;
+						DamagePlayer(currentPlayer, 1);
+						gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine = false;
+						textDisplayTime = SDL_GetTicks() + 1500;
 					}
 				}
 
-				/*			if (x > SCREEN_WIDTH - (IMAGE_WIDTH)) x -= 1;
-							else if (x < 0) x += 1;
-							if (y > SCREEN_HEIGHT-(IMAGE_HEIGHT)) y -= 1;
-							else if (y < 0) y += 1; */
+
+				if (player1Turn && usedTurn)
+				{
+					player1 = currentPlayer;
+					currentPlayer = player2;
+					player1Turn = false;
+					
+					currentText = "It is " + currentPlayer.name + "'s Turn!";
+				}
+				else if (usedTurn)
+				{
+					player2 = currentPlayer;
+					currentPlayer = player1;
+					player1Turn = true;
+
+					currentText = "It is " + currentPlayer.name + "'s Turn!";
+				}
+
+				if (takingDamage && textDisplayTime > SDL_GetTicks())
+				{
+					currentText = "Taken Damage!!!";
+				}
+
+
+				Vector2 p1SlotPos = gameGrid.GridSlotPosition(player1.slotPosition.x, player1.slotPosition.y);
+				Vector2 p2SlotPos = gameGrid.GridSlotPosition(player2.slotPosition.x, player2.slotPosition.y);
+
+				player1.SetPosition(p1SlotPos.x, p1SlotPos.y);
+				player2.SetPosition(p2SlotPos.x, p2SlotPos.y);
+			}
+			else if (e.type == SDL_KEYUP)
+			{
+				switch (e.key.keysym.sym)
+				{
+				case SDLK_RIGHT:
+					break;
+				}
 			}
 
-			ImGui_ImplSDLRenderer2_NewFrame();
-			ImGui_ImplSDL2_NewFrame();
-			ImGui::NewFrame();
+/*			if (x > SCREEN_WIDTH - (IMAGE_WIDTH)) x -= 1;
+			else if (x < 0) x += 1;
+			if (y > SCREEN_HEIGHT-(IMAGE_HEIGHT)) y -= 1;
+			else if (y < 0) y += 1; */
+		}
 
-			//imguiFrame();
+		ImGui_ImplSDLRenderer2_NewFrame();
+		ImGui_ImplSDL2_NewFrame();
+		ImGui::NewFrame();
 
-			ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.173f, 0.427f, 0.702f, 1.0f)); // Set window background to red
-			ImGui::PushStyleColor(ImGuiCol_TitleBgActive, ImVec4(0, 0.435, 0.902, 0.85f));
-			ImGui::PushStyleColor(ImGuiCol_TitleBg, ImVec4(0.004f, 0.243f, 0.502f, 0.85f));
-			ImGui::Begin("Take Your Turn!");
+		//imguiFrame();
 
-			if (ImGui::Button("Mine"))
+		ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.173f, 0.427f, 0.702f, 1.0f)); // Set window background to red
+		ImGui::PushStyleColor(ImGuiCol_TitleBgActive, ImVec4(0, 0.435, 0.902, 0.85f));
+		ImGui::PushStyleColor(ImGuiCol_TitleBg, ImVec4(0.004f, 0.243f, 0.502f, 0.85f));
+		ImGui::Begin("Take Your Turn!");
+
+		if (player1Turn) ImGui::Text("Player1 Info");
+		else ImGui::Text("Player2 Info");
+
+		ImGui::Spacing();
+		ImGui::Spacing();
+
+
+		ImGui::Text("Health");
+		DisplayCurrentCharges(currentPlayer.currentHealth, currentPlayer.maxHealth, false);
+
+		ImGui::Image((ImTextureID)mineIconTexture, ImVec2(34, 34));
+		ImGui::SameLine();
+		if (ImGui::Button("Mine"))
+		{
+			if (currentPlayer.mineItem.currentCharge == currentPlayer.mineItem.requiredCharge)
 			{
-				if (currentPlayer.mineItem.currentCharge == currentPlayer.mineItem.requiredCharge)
-				{
-					currentPlayer.mineItem.currentCharge = 0;
-					gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine = true;
-
-				}
-				else
-				{
-					if (!currentPlayer.mineItem.isCharging) currentPlayer.mineItem.isCharging = true;
-					else currentPlayer.mineItem.isCharging = false;
-				}
-				// Buttons return true when clicked (most widgets return true when edited/activated)
-			}
-			DisplayCurrentCharges(currentPlayer.mineItem.currentCharge, currentPlayer.mineItem.requiredCharge, currentPlayer.mineItem.isCharging);
-			if (ImGui::Button("Drone"))
-			{
-				// Buttons return true when clicked (most widgets return true when edited/activated)
-			//	if (currentPlayer.torpedoItem.currentCharge == currentPlayer.torpedoItem.requiredCharge)
-				{
-					//		launchingTorpedo = true;
-				}
-
-				if (gameGrid.CheckSectorForPlayer(4)) cout << "PLAYER IS IN THE SECTOR" << endl;
-				else cout << "PLAYER IS NOT IN THE SECTOR" << endl;
-			}
-			DisplayCurrentCharges(currentPlayer.droneItem.currentCharge, currentPlayer.droneItem.requiredCharge, currentPlayer.droneItem.isCharging);
-			if (ImGui::Button("Torpedo"))
-			{
-				currentText = "Input offset from current position to place your torpedo!";
-				int x;
-				int y;
-
-				// Buttons return true when clicked (most widgets return true when edited/activated)
+				currentPlayer.mineItem.currentCharge = 0;
 				gameGrid.grid.at(currentPlayer.slotPosition.x).at(currentPlayer.slotPosition.y).occupiedByMine = true;
-			}
-			DisplayCurrentCharges(currentPlayer.torpedoItem.currentCharge, currentPlayer.torpedoItem.requiredCharge, currentPlayer.torpedoItem.isCharging);
-			if (ImGui::Button("Sonar"))
-			{
-				if (currentPlayer.sonarItem.currentCharge == currentPlayer.sonarItem.requiredCharge)
-				{
-					currentPlayer.sonarItem.currentCharge = 0;
 
-					int randomRow = rand() % gameGrid.rowSize;
-					int randomColum = rand() % gameGrid.columnSize;
-
-					bool chance = rand() % 2;
-
-					if (chance)
-					{
-						if (player1Turn) cout << "Opponent Location: X: " << randomRow << " Y: " << player2.slotPosition.y << endl;
-						else  cout << "Opponent Location: X: " << randomRow << " Y: " << player1.slotPosition.y << endl;
-					}
-					else
-					{
-						if (player1Turn) cout << "Opponent Location: X: " << player2.slotPosition.x << " Y: " << randomColum << endl;
-						else  cout << "Opponent Location: X: " << player1.slotPosition.x << " Y: " << randomColum << endl;
-					}
-
-				}
-				else
-				{
-					if (!currentPlayer.sonarItem.isCharging) currentPlayer.sonarItem.isCharging = true;
-					else currentPlayer.sonarItem.isCharging = false;
-				}
-			}
-			DisplayCurrentCharges(currentPlayer.sonarItem.currentCharge, currentPlayer.sonarItem.requiredCharge, currentPlayer.sonarItem.isCharging);
-
-			ImGui::PopStyleColor();
-			ImGui::PopStyleColor();
-			ImGui::PopStyleColor();
-			ImGui::End();
-
-			SDL_Rect textRect = { 24, 24, 300, 114 };
-
-
-			ImGui::Render();
-
-			loadFromRenderedText(currentText, textCOLOR);
-
-			SDL_RenderClear(renderer);
-
-
-			//testRect.Render(renderer);
-
-			gameGrid.RenderGrid(renderer);
-
-			//Vector2 player1Pos = gameGrid.GridSlotPosition(player1SlotPos.x, player1SlotPos.y);
-			//Vector2 player2Pos = gameGrid.GridSlotPosition(player2SlotPos.x, player2SlotPos.y);
-
-			if (player1Turn)
-			{
-				player1.Render(renderer, true);
-				player2.Render(renderer, false);
 			}
 			else
 			{
-				player1.Render(renderer, false);
-				player2.Render(renderer, true);
+				if (!currentPlayer.mineItem.isCharging) currentPlayer.mineItem.isCharging = true;
+				else currentPlayer.mineItem.isCharging = false;
 			}
-
-			ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
-			//SDL_RenderCopy(renderer, garFeldiTexture, NULL, &dstrect);
-
-			buttonRect.Render(renderer);
-			SDL_RenderCopy(renderer, textTexture, NULL, &textRect);
-			SDL_RenderPresent(renderer);
-
-			SetScreenColor({ 51, 155, 226 , 225 });
-			//loadFromRenderedText("Welcome to a New Scene!!!", textCOLOR);
-			SDL_RenderClear(renderer);
+			// Buttons return true when clicked (most widgets return true when edited/activated)
 		}
+		DisplayCurrentCharges(currentPlayer.mineItem.currentCharge, currentPlayer.mineItem.requiredCharge, currentPlayer.mineItem.isCharging);
+
+		ImGui::Image((ImTextureID)droneIconTexture, ImVec2(34, 34));
+		ImGui::SameLine();
+
+		if (ImGui::Button("Drone"))
+		{
+			// Buttons return true when clicked (most widgets return true when edited/activated)
+		//	if (currentPlayer.torpedoItem.currentCharge == currentPlayer.torpedoItem.requiredCharge)
+			{
+		//		launchingTorpedo = true;
+			}
+			
+			if (gameGrid.CheckSectorForPlayer(sectorInput)) cout << "PLAYER IS IN THE SECTOR" << endl;
+			else cout << "PLAYER IS NOT IN THE SECTOR" << endl;
+		}
+		DisplayCurrentCharges(currentPlayer.droneItem.currentCharge, currentPlayer.droneItem.requiredCharge, currentPlayer.droneItem.isCharging);
+		ImGui::Text("Sector To Scan");
+		ImGui::SliderInt("##sectorinput", &sectorInput, 1, 4);
+
+		ImGui::Image((ImTextureID)torpedoIconTexture, ImVec2(34, 34));
+		ImGui::SameLine();
+
+		if (ImGui::Button("Torpedo"))
+		{
+			// Buttons return true when clicked (most widgets return true when edited/activated)
+			TorpedoExplosion(currentPlayer.slotPosition.x + xInput, currentPlayer.slotPosition.y + -yInput, gameGrid, player1, player2, currentPlayer);
+		}
+		DisplayCurrentCharges(currentPlayer.torpedoItem.currentCharge, currentPlayer.torpedoItem.requiredCharge, currentPlayer.torpedoItem.isCharging);
+
+		ImGui::Text("Torpedo X");
+		ImGui::SliderInt("##xinput", &xInput, -2, 2);
+		ImGui::Text("Torpedo Y");
+		ImGui::SliderInt("##yinput", &yInput, -2, 2);
+		
+		ImGui::Image((ImTextureID)sonarIconTexture, ImVec2(34, 34));
+		ImGui::SameLine();
+		//ImGui::SetCursorPosY(ImGui::GetItemRectMin().y - 200);
+
+		if (ImGui::Button("Sonar"))
+		{
+			if (currentPlayer.sonarItem.currentCharge == currentPlayer.sonarItem.requiredCharge)
+			{
+				currentPlayer.sonarItem.currentCharge = 0;
+
+				int randomRow = rand() % gameGrid.rowSize;
+				int randomColum = rand() % gameGrid.columnSize;
+
+				bool chance = rand() % 2;
+
+				if (chance)
+				{
+					if (player1Turn) cout << "Opponent Location: X: " << randomRow << " Y: " << player2.slotPosition.y << endl;
+					else  cout << "Opponent Location: X: " << randomRow << " Y: " << player1.slotPosition.y << endl;
+				}
+				else
+				{
+					if (player1Turn) cout << "Opponent Location: X: " << player2.slotPosition.x << " Y: " << randomColum << endl;
+					else  cout << "Opponent Location: X: " << player1.slotPosition.x << " Y: " << randomColum << endl;
+				}
+
+			}
+			else
+			{
+				if (!currentPlayer.sonarItem.isCharging) currentPlayer.sonarItem.isCharging = true;
+				else currentPlayer.sonarItem.isCharging = false;
+			}
+		}
+		DisplayCurrentCharges(currentPlayer.sonarItem.currentCharge, currentPlayer.sonarItem.requiredCharge, currentPlayer.sonarItem.isCharging);
+
+		ImGui::PopStyleColor();
+		ImGui::PopStyleColor();
+		ImGui::PopStyleColor();
+		ImGui::End();
+
+		SDL_Rect textRect = { 24, 24, 300, 114 };
+		SDL_Rect iconRect = { 24, 90, 125, 125 };
+		
+
+		ImGui::Render();
+
+		if (endingGame && textDisplayTime > SDL_GetTicks())
+		{
+			string victoryText;
+			if (player1.currentHealth == 0) victoryText = "Player 2 Winner!";
+			else victoryText = "Player 1 Winner!";
+			currentText = victoryText;
+			textDisplayTime--;
+		}
+		else if (endingGame && textDisplayTime <= SDL_GetTicks())
+		{
+			endingGame = false;
+			quit = true;
+		}
+
+		loadFromRenderedText(currentText, textCOLOR);
+
+		SDL_RenderClear(renderer);
+
+
+		//testRect.Render(renderer);
+
+		gameGrid.RenderGrid(renderer);
+
+		//Vector2 player1Pos = gameGrid.GridSlotPosition(player1SlotPos.x, player1SlotPos.y);
+		//Vector2 player2Pos = gameGrid.GridSlotPosition(player2SlotPos.x, player2SlotPos.y);
+
+		if (player1Turn)
+		{
+			player1.Render(renderer, true);
+			player2.Render(renderer, false);
+		}
+		else
+		{
+			player1.Render(renderer, false);
+			player2.Render(renderer, true);
+		}
+
+		ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
+	//	SDL_RenderCopy(renderer, garFeldiTexture, NULL, &iconRect);
+
+		buttonRect.Render(renderer);
+		SDL_RenderCopy(renderer, textTexture, NULL, &textRect);
+		SDL_RenderPresent(renderer);
+
+		SetScreenColor({ 51, 155, 226 , 225 });
+		//loadFromRenderedText("Welcome to a New Scene!!!", textCOLOR);
+		SDL_RenderClear(renderer);
 
 	}
 
@@ -638,7 +767,8 @@ int main(int argc, char* args[])
 	ImGui::DestroyContext();
 
 	// cleanup SDL
-	SDL_DestroyTexture(garFeldiTexture);
+	SDL_DestroyTexture(sonarIconTexture);
+	SDL_DestroyTexture(torpedoIconTexture);
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(gWindow);
 	SDL_Quit();
