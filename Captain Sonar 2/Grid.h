@@ -7,7 +7,7 @@
 
 struct GridSlot : GameObject
 {
-    bool occupiedByLamd = false;
+    bool occupiedByLand = false;
     bool occupiedByPlayer = false;
     bool occupiedByMine = false;
     int playerOwner = 0;
@@ -36,6 +36,7 @@ struct GridSlot : GameObject
     virtual void RenderSlot(SDL_Renderer* renderer) {
         borderRect.Render(renderer);
         if (occupiedByMine) innerRect.SetColor({ 228, 44, 44 });
+        else if (occupiedByLand) innerRect.SetColor({ 100, 185, 125 });
         else innerRect.SetColor({ 148, 194, 255 });
         innerRect.Render(renderer);
     }

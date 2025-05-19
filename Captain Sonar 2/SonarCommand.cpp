@@ -248,12 +248,40 @@ bool isViableSpot(int slotX, int slotY, const Grid& gameGrid)
 		return false;
 	}
 
-	if (gameGrid.grid.at(slotX).at(slotY).occupiedByLamd || gameGrid.grid.at(slotX).at(slotY).occupiedByPlayer)
+	if (gameGrid.grid.at(slotX).at(slotY).occupiedByLand || gameGrid.grid.at(slotX).at(slotY).occupiedByPlayer)
 	{
 		cout << "Player in the way man." << endl;
 		return false;
 	}
 	return true;
+}
+
+void GenerateLandmass(Grid &gameGrid)
+{
+	gameGrid.grid.at(3).at(3).occupiedByLand = true;
+	gameGrid.grid.at(3).at(4).occupiedByLand = true;
+	gameGrid.grid.at(3).at(5).occupiedByLand = true;
+	gameGrid.grid.at(2).at(3).occupiedByLand = true;
+
+	gameGrid.grid.at(10).at(7).occupiedByLand = true;
+	gameGrid.grid.at(11).at(7).occupiedByLand = true;
+	gameGrid.grid.at(12).at(7).occupiedByLand = true;
+	gameGrid.grid.at(11).at(8).occupiedByLand = true;
+	gameGrid.grid.at(11).at(9).occupiedByLand = true;
+
+	gameGrid.grid.at(3).at(9).occupiedByLand = true;
+	gameGrid.grid.at(3).at(10).occupiedByLand = true;
+	gameGrid.grid.at(3).at(11).occupiedByLand = true;
+	gameGrid.grid.at(4).at(12).occupiedByLand = true;
+	gameGrid.grid.at(5).at(12).occupiedByLand = true;
+	gameGrid.grid.at(6).at(13).occupiedByLand = true;
+	gameGrid.grid.at(7).at(13).occupiedByLand = true;
+
+	gameGrid.grid.at(12).at(12).occupiedByLand = true;
+	gameGrid.grid.at(13).at(12).occupiedByLand = true;
+	gameGrid.grid.at(12).at(13).occupiedByLand = true;
+	gameGrid.grid.at(11).at(13).occupiedByLand = true;
+	gameGrid.grid.at(10).at(13).occupiedByLand = true;
 }
 
 void DisplayCurrentCharges(int currentCharge, int maxCharge, bool currentlySelected = false)
@@ -415,6 +443,8 @@ int main(int argc, char* args[])
 
 	SDL_Color textCOLOR{ 25, 25, 99, 255 };
 
+	GenerateLandmass(gameGrid);
+
 	// init SDL
 
 	// handle events
@@ -438,6 +468,58 @@ int main(int argc, char* args[])
 	Vector2 previousPosition = currentPlayer.slotPosition;
 
 	bool launchingTorpedo = false;
+
+	bool inMainMenu = true;
+
+	while (inMainMenu)
+	{
+
+		while (SDL_PollEvent(&e) != 0)
+		{
+			ImGui_ImplSDL2_ProcessEvent(&e);
+
+			if (e.type == SDL_QUIT)
+			{
+				inMainMenu = false;
+				quit = true;
+			}
+		}
+
+
+		ImGui_ImplSDLRenderer2_NewFrame();
+		ImGui_ImplSDL2_NewFrame();
+		ImGui::NewFrame();
+
+		//imguiFrame();
+
+		ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.173f, 0.427f, 0.702f, 1.0f)); // Set window background to red
+		ImGui::PushStyleColor(ImGuiCol_TitleBgActive, ImVec4(0, 0.435, 0.902, 0.85f));
+		ImGui::PushStyleColor(ImGuiCol_TitleBg, ImVec4(0.004f, 0.243f, 0.502f, 0.85f));
+
+		ImGui::Begin("Main Menu Bud");
+		if (ImGui::Button("Play Game")) {
+			inMainMenu = false;
+		}
+
+
+		ImGui::PopStyleColor();
+		ImGui::PopStyleColor();
+		ImGui::PopStyleColor();
+
+		ImGui::End();
+
+
+		ImGui::Render();
+
+		ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
+
+		SDL_RenderPresent(renderer);
+
+		SetScreenColor({ 51, 155, 226 , 225 });
+		//loadFromRenderedText("Welcome to a New Scene!!!", textCOLOR);
+		SDL_RenderClear(renderer);
+	}
+
 
 	while (!quit)
 	{
